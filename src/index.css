@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,'League Spartan', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'leagueSpartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif, 'League Spartan';
   -webkit-font-smoothing: antialiased;
@@ -26,21 +26,28 @@ code {
   flex: 1;
   flex-direction: row;
   justify-content: flex-end;
+  margin: 0;
   margin-right: 2rem;
   font-family: 'League Spartan', sans-serif;
   position: fixed;
   top: 0;
   width: 100%;
+  height: 5rem;
+  padding: 0;
 }
 
 .navRight{
   display: flex;
   flex: 1;
   flex-direction: row;
+  padding: 0;
+  margin: 0;
   margin-left: 60%;
 }
 
 .navLeft {
+  padding: 0;
+  margin: 0;
   margin-left: 2rem;
 }
 
@@ -49,7 +56,14 @@ code {
   margin-top: 2rem;
   color: white;
   font-family: 'League Spartan', sans-serif;
+  text-decoration: none;
 }
+
+.anchor{
+  text-decoration: none;
+     color: white;
+     font-family: 'League Spartan', sans-serif;
+    }
 
 #welcome {
   margin-left: 14rem;
@@ -158,7 +172,8 @@ code {
   flex: 1;
   flex-direction: column;
   font-size: xx-large;
-  height: 100vh;
+  height: 30vh;
+  margin-bottom: 10rem;
 }
 
 .media {
@@ -171,5 +186,121 @@ code {
   margin-right: 10px;
 }
 
+#cvNav{
+text-decoration: none;
+   color: white;
+   font-family: 'League Spartan', sans-serif;
+  }
 
 
+  #cvNav:hover{
+    background-color: white;
+    color: black;
+  }
+
+  /*
+  Animation for my main name in header
+  */
+  #mainText {
+    text-decoration: none;
+  }
+  #mainName {
+    text-decoration: none;
+  }
+
+  #mainName {
+    background:
+      linear-gradient(
+        to right,
+        rgba(93, 157, 11, 1),
+        rgba(93, 157, 11, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+  }
+
+  #mainName {
+    background:
+      linear-gradient(
+        to right,
+        rgba(93, 157, 11, 1),
+        rgba(93, 157, 11, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+  }
+
+  #mainName {
+    background:
+      linear-gradient(
+        to right,
+        rgba(93, 157, 11, 1),
+        rgba(93, 157, 11, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+  }
+
+  #mainName:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+
+  #mainName {
+    background:
+      linear-gradient(
+        to right,
+        rgba(93, 157, 11, 1),
+        rgba(93, 157, 11, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+
+  .anchor {
+    position: relative;
+  }
+  
+  .anchor::before {
+      content: '';
+      position: absolute;
+      width: 90%;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #5F7ADB;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+  .anchor:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+  
