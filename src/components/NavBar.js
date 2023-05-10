@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="navRight">
         <AnchorLink href='#profile'><h1 className="navItems"> About Me</h1></AnchorLink>
         <AnchorLink href='#project'><h1 className="navItems"> Projects</h1></AnchorLink>
-        <h1 className="navItems"> Contact</h1>
+        <AnchorLink href='#contact'><h1 className="navItems"> Contact</h1></AnchorLink>
       </div>
     </div>
   );

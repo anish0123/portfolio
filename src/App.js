@@ -2,6 +2,7 @@ import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Welcome from "./components/Welcome";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Welcome />
       <About />
       <Project />
+      <Contact />
     </div>
   );
 };
