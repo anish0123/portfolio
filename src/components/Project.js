@@ -1,7 +1,7 @@
 const Project = () => {
   return (
     <div id="project">
-      <h1 id="projectTitle">Project</h1>
+      <h1 id="projectTitle">Projects</h1>
       <div className="projectSelection">
         <div className="singleProject">
           <img
@@ -60,7 +60,7 @@ const Project = () => {
             className="projectImage"
           />
           <div className="projectInfo">
-            <h4 className="projectTitle">Answerpedia</h4>
+            <h4 className="projectTitle">Play N Learn</h4>
             <h6 className="projectPara">
               This app is created to help young children of age group 2-4 years
               learn a variety of skills in a fun and engaging way. This app is

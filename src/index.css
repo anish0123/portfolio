@@ -127,6 +127,8 @@ Styling for anchor items in navBar
       transform: scaleX(1);
     }
 
+    
+
     /*
   Animation for my main name in header
   */
@@ -231,6 +233,10 @@ Styling for my welcome text and small intro page
 }
 .lottie {
   width: 40%;
+}
+
+#cvNav {
+  text-decoration: none;
 }
 
 /*
@@ -362,26 +368,24 @@ Styling for my contact details
 }
 
 .mediaItems {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 #cvNav {
-  font-size: large;
-  margin-top: 0;
-  padding-top: 0;
+  text-decoration: none;
 }
 
-#cvNav, .links{
+.links{
   text-decoration: none;
    color: white;
   font-family: 'Open Sans', sans-serif;
   }
 
-  #cvNav, .links {
+ .links {
     position: relative;
   }
   
-  #cvNav::before, .links::before {
+ .links::before {
       content: '';
       position: absolute;
       width: 100%;
@@ -395,7 +399,7 @@ Styling for my contact details
       transition: transform .3s ease-in-out;
     }
   
-    #cvNav:hover::before, .links:hover::before {
+   .links:hover::before {
     transform-origin: left;
     transform: scaleX(1);
   }
