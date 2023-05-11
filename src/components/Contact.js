@@ -22,7 +22,8 @@ const Contact = () => {
           <FcAddressBook size={50} />
         </a>
       </div>
-      <a href="https://users.metropolia.fi/~anishm/portfolio/CV%20-%20Anish%20Maharjan.pdf" id="cvNav">View my CV</a>
+      
+      <a href="https://users.metropolia.fi/~anishm/portfolio/CV%20-%20Anish%20Maharjan.pdf" id="cvNav">Checkout my CV</a>
     </div>
   );
 };

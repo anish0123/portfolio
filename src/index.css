@@ -1,3 +1,6 @@
+/*
+Styling for whole body
+*/
 @font-face {
   font-family: "Light";
   src: local("LeagueSpartan"),
@@ -6,6 +9,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'leagueSpartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif, 'League Spartan';
@@ -20,6 +24,9 @@ code {
     monospace;
 }
 
+/*
+Styling for navBar
+*/
 
 #navBar {
   display: flex;
@@ -36,169 +43,91 @@ code {
   padding: 0;
 }
 
+#navBarScrolled {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+  margin-right: 2rem;
+  font-family: 'League Spartan', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  padding: 0;
+  background-color: #1B2223;
+}
+
 .navRight{
   display: flex;
   flex: 1;
   flex-direction: row;
   padding: 0;
   margin: 0;
-  margin-left: 60%;
+  margin-left: 62%;
 }
 
 .navLeft {
   padding: 0;
   margin: 0;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
+.navRightItem {
+  margin-right: 20px;
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  text-decoration: none;
+}
 .navItems {
+  margin: 0;
+  padding: 0;
   margin-right: 20px;
   margin-top: 2rem;
   color: white;
   font-family: 'League Spartan', sans-serif;
   text-decoration: none;
+  font-size: large;
 }
 
-.anchor{
+/*
+Styling for anchor items in navBar
+*/
+.anchor {
+  text-decoration: none;
+}
+
+.navItems{
   text-decoration: none;
      color: white;
      font-family: 'League Spartan', sans-serif;
     }
 
-#welcome {
-  margin-left: 14rem;
-  margin-top: 4rem;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  height: 100vh
-}
-.welcomeText {
-  margin-right: 5rem;
-  margin-top: 13rem;
-}
-#name{
-  font-size: 5rem;
-  margin: 0;
-  padding: 0;
-}
-.lottie {
-  width: 40%;
-}
+    .navItems {
+      position: relative;
+    }
+    
+    .navItems::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 4px;
+        background-color: #5F7ADB;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+    
+    .navItems:hover::before {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
 
-#profile {
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  
-}
-
-.profilePara{
-  width: 50%;
-}
-
-#project {
- 
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  height: 150vh;
-}
-
-#projectTitle {
-  align-self: center;
-}
-
-
-.projectSelection {
-  display: flex;
-  flex: 3;
-  flex-direction: column;
-  justify-content: left;
-}
-
-.singleProject {
-  margin-top: 5rem;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 0;
-  padding: 0;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.projectImage {
-  width: 7em;
-  background-color: white;
-  height: 10rem;
-  margin-right: 2%;
-  margin-top: 10px;
-}
-
-.projectTitle {
-  padding: 0;
- margin: 0;
- margin-bottom: 15px;
-}
-.projectPara {
-  padding: 0;
-  margin: 0;
-  font-size: medium;
-  margin-bottom: 10px;
-}
-
-.projectInfo{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  margin-top: 15px;
-}
-
-#contact {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  height: 30vh;
-  margin-bottom: 10rem;
-}
-
-.media {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.mediaItems {
-  margin-right: 10px;
-}
-
-#cvNav{
-text-decoration: none;
-   color: white;
-   font-family: 'League Spartan', sans-serif;
-  }
-
-
-  #cvNav:hover{
-    background-color: white;
-    color: black;
-  }
-
-  /*
+    /*
   Animation for my main name in header
   */
   #mainText {
@@ -280,17 +209,185 @@ text-decoration: none;
     transition: background-size 400ms;
   }
 
-  .anchor {
+  /*
+Styling for my welcome text and small intro page
+*/
+#welcome {
+  margin-left: 14rem;
+  margin-top: 4rem;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 100vh
+}
+.welcomeText {
+  margin-right: 5rem;
+  margin-top: 13rem;
+}
+#name{
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+}
+.lottie {
+  width: 40%;
+}
+
+/*
+Styling for profile page where there is short about me
+*/
+
+#profile {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: xx-large;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.profilePara{
+  width: 50%;
+}
+
+/*
+Styling for my list of projects
+*/
+
+#project {
+ 
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: xx-large;
+  padding-top: 5rem;
+  height: 140vh;
+}
+
+#projectTitle {
+  align-self: center;
+}
+
+
+.projectSelection {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 20rem;
+}
+
+.singleProject {
+  margin-top: 5rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.projectImage {
+  width: 7em;
+  background-color: white;
+  height: 10rem;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+
+.projectTitle {
+  padding: 0;
+ margin: 0;
+ margin-bottom: 15px;
+}
+.projectPara {
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.projectLink {
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+  
+
+
+.projectInfo{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+/*
+Styling for my contact details
+*/
+
+#contact {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: xx-large;
+  height: 30vh;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+.media {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.mediaItems {
+  margin-right: 10px;
+}
+
+#cvNav {
+  font-size: large;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#cvNav, .links{
+  text-decoration: none;
+   color: white;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+  #cvNav, .links {
     position: relative;
   }
   
-  .anchor::before {
+  #cvNav::before, .links::before {
       content: '';
       position: absolute;
-      width: 90%;
-      height: 4px;
+      width: 100%;
+      height: 3px;
       border-radius: 4px;
-      background-color: #5F7ADB;
+      background-color: #5D9D0B;
       bottom: 0;
       left: 0;
       transform-origin: right;
@@ -298,9 +395,7 @@ text-decoration: none;
       transition: transform .3s ease-in-out;
     }
   
-  .anchor:hover::before {
+    #cvNav:hover::before, .links:hover::before {
     transform-origin: left;
     transform: scaleX(1);
   }
-
-  
