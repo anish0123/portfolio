@@ -14,15 +14,16 @@ const Contact = () => {
           </a>
         </div>
         <div>
-          <a href="https://github.com/anish0123">
+          <a href="https://github.com/anish0123" className="mediaItems">
             <img src="https://skillicons.dev/icons?i=github" alt="tech stack" />
           </a>
         </div>
-        <a href="mailto:anishmhn@hotmail.com">
+        <div>
+        <a href="mailto:anishmhn@hotmail.com" className="mediaItems">
           <FcAddressBook size={50} />
         </a>
+        </div>
       </div>
-      <a href="https://users.metropolia.fi/~anishm/portfolio/CV%20-%20Anish%20Maharjan.pdf" id="cvNav">View my CV</a>
     </div>
   );
 };
