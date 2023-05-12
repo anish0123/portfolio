@@ -3,7 +3,10 @@
 const About = () => {
   return (
     <div id="profile">
+      <div id="profileHeadingContainer">
       <h1 id="profileHeading">About Me</h1>
+      </div>
+      
       <p className="profilePara">
         I am second-year IT student in Metropolia University of Applied
         Sciences, currently learning and gaining knowledge in various
@@ -15,7 +18,7 @@ const About = () => {
         innovative software.
       </p>
 
-      <h2>My Tech Stack</h2>
+      <h2 id="techStack">My Tech Stack</h2>
       <div>
         <a href="https://skillicons.dev">
           <img className="icons"
