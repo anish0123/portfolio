@@ -3,7 +3,7 @@ import { FcAddressBook } from "react-icons/fc";
 const Contact = () => {
   return (
     <div id="contact">
-      <h1>Contact</h1>
+      <h1 id="contactTitle">Contact</h1>
       <div className="media">
         <div className="mediaItems">
           <a href="https://www.linkedin.com/in/anish-maharjan1/">

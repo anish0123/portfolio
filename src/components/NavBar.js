@@ -25,7 +25,7 @@ const NavBar = () => {
     <div id={navbar ? "navBarScrolled" : "navBar"}>
       <div className="navLeft">
         <AnchorLink href="#welcome" id="mainText">
-          <h1 id="mainName" className="navRightItem">
+          <h1 id="mainName" className="navLeftItem">
             Anish Maharjan
           </h1>
         </AnchorLink>
