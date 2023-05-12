@@ -106,23 +106,23 @@ const Project = () => {
         <div className="singleProject">
           <img
             src="https://users.metropolia.fi/~anishm/portfolio/gameShots.png"
-            alt="omaGarden logo"
+            alt="gameshots logo"
             className="projectImage"
           />
           <div className="projectInfo">
             <h4 className="projectTitle">Game Shots</h4>
             <h6 className="projectPara">
-            Game Shots React Native project that allows users to upload their game achievements.  
-            <br></br>
+            Game Shots is a React Native project that allows users to upload their game achievements. <br></br>
+            Users can take a screenshot of their achievement and upload it along with a description of the achievement. 
             This app is designed for gamers to share their achievements in various games.
             </h6>
             <h6 className="projectLink">
-            Github Link:{" "}
+              Github Link:{" "}
               <a
                 className="links"
                 href="https://github.com/anish0123/gameShots"
               >
-                Game Shots
+                Attendance System
               </a>
             </h6>
           </div>
