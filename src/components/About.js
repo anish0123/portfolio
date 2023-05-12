@@ -18,7 +18,7 @@ const About = () => {
       <h2>My Tech Stack</h2>
       <div>
         <a href="https://skillicons.dev">
-          <img
+          <img className="icons"
             src="https://skillicons.dev/icons?i=js,html,css,java,nodejs,express,azure,react,c,mysql,sqlite,swift,kotlin,androidstudio,linux,figma,git,github,gitlab,postman"
             alt="tech stack"
           />

@@ -403,3 +403,197 @@ Styling for my contact details
     transform-origin: left;
     transform: scaleX(1);
   }
+
+  /*
+  For responsive designs using media Query 
+  */
+
+  @media only screen and (max-width: 500px) {
+    #navBar {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin: 0;
+      margin-right: 2rem;
+      font-family: 'League Spartan', sans-serif;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 2rem;
+      padding: 0;
+    }
+
+    #navBarScrolled {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin: 0;
+      margin-right: 2rem;
+      font-family: 'League Spartan', sans-serif;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 2rem;
+      padding: 0;
+      background-color: #1B2223;
+    }
+    .navRight{
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      padding: 0;
+      margin: 0;
+      margin-left: 18px;
+      
+    }
+    
+    .navLeft {
+      padding: 0;
+      margin: 0;
+     
+    }
+    .navRightItem{
+      padding-top: 18px;
+      font-size: 15px;
+      margin-left: 15px;
+    }
+    .navItems{
+      font-size: 10px;
+    }
+
+    /*
+Styling for my welcome text and small intro page
+*/
+#welcome {
+  margin-left: 2rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 90vh
+}
+.welcomeText {
+  margin-right: 5rem;
+  font-size: 10px;
+  margin-top: 5rem;
+}
+.lottie{
+  width: 70%;
+}
+
+/*
+Styling for profile page where there is short about me
+*/
+
+#profile {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: xx-large;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  
+}
+
+.profilePara{
+  width: 70%;
+}
+.icons {
+  width: 23rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+/*
+Styling for my list of projects
+*/
+
+#project {
+ 
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: 5px;
+  padding-top: 5rem;
+  height: 100vh;
+}
+
+#projectTitle {
+  align-self: center;
+}
+
+
+.projectSelection {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+.singleProject {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.projectImage {
+  width: 5em;
+  background-color: white;
+  height: 4rem;
+  margin-right: 2%;
+  margin-top: 2rem;
+}
+
+.projectTitle {
+  padding: 0;
+ margin: 0;
+ margin-bottom: 15px;
+}
+.projectPara {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 10px;
+  width: 100%;
+}
+
+.projectLink {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+  
+
+
+.projectInfo{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+
+  }
