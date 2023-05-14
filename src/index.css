@@ -405,807 +405,833 @@ Styling for my contact details
   }
 
 
-
-
-
-
   /*
-  For responsive designs using media Query 
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 1000px) {
+      #navBar {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        height: 3rem;
+      }
+      #navBarScrolled {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        height: 3rem;
+      }
+      .navRight{
+        margin-left: 26rem;
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+      }
+      .navLeftItem{
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 10px ;
+        font-size: 1.2rem;
+      }
+      #mainName {
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+        margin-left: 10px;
+      }
+  
+      /*
+  Styling for my welcome text and small intro page
   */
-
-  @media only screen and (max-width: 1000px) {
-    #navBar {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-      margin: 0;
-      margin-right: 2rem;
-      font-family: 'League Spartan', sans-serif;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height: 2rem;
-      padding: 0;
-    }
-
-    #navBarScrolled {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-      margin: 0;
-      margin-right: 2rem;
-      font-family: 'League Spartan', sans-serif;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 2rem;
-      padding: 0;
-      background-color: #1B2223;
-    }
-    .navRight{
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-      margin-left: 28rem;
-     
-      
-    }
-    
-    .navLeft {
-      padding: 0;
-      margin: 0;
-    }
-    .navLeftItem{
-      margin-left: 5px;
-      
-    }
-    .navItems{
-      margin-top: 10px ;
-      font-size: 1rem;
-    }
-    #mainName {
-      font-size: 1.5rem;
-      padding: 0;
-      margin: 0;
-      padding-top: 5px;
-      padding-left: 10px;
-    }
-
-    /*
-Styling for my welcome text and small intro page
-*/
-#welcome {
-  margin-left: 15px;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 90vh
-}
-#name {
-  font-size: 4rem;
-}
-.welcomeText {
-  margin-right: 5rem;
-  font-size: 1rem;
-  margin-top: 4rem;
-  margin-left: 1rem;
-}
-.lottie{
-  width: 40%;
-}
-
-/*
-Styling for profile page where there is short about me
-*/
-
-#profile {
-  align-items: center;
-  justify-content:center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: large;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
- 
-}
-#techStack{
-  padding-top: 30px;
-  margin-bottom: 50px;
-}
-
-.profilePara{
-  width: 80%;
-  font-size: 20px;
-}
-.icons {
-  width: 40rem;
-  margin-right: 20px;
-  padding: 0;
-}
-
-/*
-Styling for my list of projects
-*/
-
-#project {
-  justify-content:center;
-  align-items:center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: 5px;
-  width: 100%;
-  height: 150vh;
-  padding: 0;
-  margin-left: 10px;
-  padding-top: 7rem;
-}
-
-#projectTitle {
-  font-size: xx-large;
-}
-
-
-.projectSelection {
-  display: flex;
-  flex: 3;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 0;
-  font-size: 20px;
-  margin-left: 10%;
-}
-
-.singleProject {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.projectImage {
-  width: 7em;
-  background-color: white;
-  height: 5rem;
-  margin-right: 2%;
-  margin-top: 2rem;
-}
-
-.projectTitle {
-  padding: 0;
- margin: 0;
- padding-top: 10px;
- margin-bottom: 5px;
- font-size: 1.5rem;
-}
-.projectPara {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-  font-size: 0.7rem;
-  width: 90%;
-}
-
-.projectLink {
-  padding: 0;
-  margin: 0;
-  font-size: 0.7rem;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-.links {
-  text-decoration: none;
-  color: white;
-}
-
-  
-
-
-.projectInfo{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  margin-top: 15px;
-}
-
-#contact {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  height: 30vh;
-  
-}
-
-#contactTitle {
-  font-size: 3rem;
-}
-
-.media {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.mediaItems {
-  margin-right: 20px;
-}
-
-
+  #welcome {
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh
   }
-
-
-
-
-
-
-
-
-
-
+  #name {
+    font-size: 4rem;
+  }
+  .welcomeText {
+    margin-right: 5rem;
+    font-size: 1rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+  .lottie{
+    width: 40%;
+  }
+  
   /*
-  For responsive designs using media Query 
+  Styling for profile page where there is short about me
   */
-
-  @media only screen and (max-width: 900px) {
-    #navBar {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-      margin: 0;
-      margin-right: 2rem;
-      font-family: 'League Spartan', sans-serif;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height: 2rem;
-      padding: 0;
-    }
-
-    #navBarScrolled {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-      margin: 0;
-      margin-right: 2rem;
-      font-family: 'League Spartan', sans-serif;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 2rem;
-      padding: 0;
-      background-color: #1B2223;
-    }
-    .navRight{
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-      margin-left: 18rem;
-     
-      
-    }
-    
-    .navLeft {
-      padding: 0;
-      margin: 0;
-    }
-    .navLeftItem{
-      margin-left: 5px;
-      
-    }
-    .navItems{
-      margin-top: 10px ;
-      font-size: 1rem;
-    }
-    #mainName {
-      font-size: 1.5rem;
-      padding: 0;
-      margin: 0;
-      padding-top: 5px;
-      padding-left: 10px;
-    }
-
-    /*
-Styling for my welcome text and small intro page
-*/
-#welcome {
-  margin-left: 15px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 90vh
-}
-#name {
-  font-size: 50px;
-}
-.welcomeText {
-  margin-right: 5rem;
-  font-size: 10px;
-  margin-top: 5rem;
-}
-.lottie{
-  width: 70%;
-}
-
-/*
-Styling for profile page where there is short about me
-*/
-
-#profile {
-  align-items: center;
-  justify-content:center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: large;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
- 
-}
-#techStack{
-  padding-top: 30px;
-  margin-bottom: 50px;
-}
-
-.profilePara{
-  width: 80%;
-  font-size: 20px;
-}
-.icons {
-  width: 40rem;
-  margin-right: 20px;
-  padding: 0;
-}
-
-/*
-Styling for my list of projects
-*/
-
-#project {
-  justify-content:center;
-  align-items:center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: 5px;
-  width: 100%;
-  height: 100vh;
-  padding: 0;
-  margin-left: 10px;
-  padding-top: 3rem;
-}
-
-#projectTitle {
-  font-size: xx-large;
-}
-
-
-.projectSelection {
-  display: flex;
-  flex: 3;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 0;
-  font-size: 20px;
-  margin-left: 10%;
-}
-
-.singleProject {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.projectImage {
-  width: 5em;
-  background-color: white;
-  height: 4rem;
-  margin-right: 2%;
-  margin-top: 2rem;
-}
-
-.projectTitle {
-  padding: 0;
- margin: 0;
- padding-top: 10px;
- margin-bottom: 5px;
- font-size: 15px;
-}
-.projectPara {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-  font-size: 8px;
-  width: 90%;
-}
-
-.projectLink {
-  padding: 0;
-  margin: 0;
-  font-size: 8px;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-.links {
-  text-decoration: none;
-  color: white;
-}
-
   
-
-
-.projectInfo{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  margin-top: 15px;
-}
-
-#contact {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  height: 30vh;
-  
-}
-
-#contactTitle {
-  font-size: xx-large;
-}
-
-.media {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.mediaItems {
-  margin-right: 20px;
-}
-
-
-  }
-
-
+  #profile {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: large;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
    
-
-
-
-
-
-
-
-
-
-
+  }
+  #techStack{
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .profilePara{
+    width: 80%;
+    font-size: 20px;
+  }
+  .icons {
+    width: 40rem;
+    margin-right: 20px;
+    padding: 0;
+  }
+  
   /*
-  For responsive designs using media Query 
+  Styling for my list of projects
   */
-
-  @media only screen and (max-width: 500px) {
-    #navBar {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-      margin: 0;
-      margin-right: 2rem;
-      font-family: 'League Spartan', sans-serif;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height: 2rem;
-      padding: 0;
-    }
-
-    #navBarScrolled {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-      margin: 0;
-      margin-right: 2rem;
-      font-family: 'League Spartan', sans-serif;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 2rem;
-      padding: 0;
-      background-color: #1B2223;
-    }
-    .navRight{
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-      margin-left: 150px;
-     
-      
-    }
+  
+  #project {
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 5px;
+    width: 100%;
+    height: 150vh;
+    padding: 0;
+    margin-left: 10px;
+    padding-top: 7rem;
+  }
+  
+  #projectTitle {
+    font-size: xx-large;
+  }
+  
+  
+  .projectSelection {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+  
+  .singleProject {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projectImage {
+    width: 7em;
+    background-color: white;
+    height: 5rem;
+    margin-right: 2%;
+    margin-top: 2rem;
+  }
+  
+  .projectTitle {
+    padding: 0;
+   margin: 0;
+   padding-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.5rem;
+  }
+  .projectPara {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    width: 90%;
+  }
+  
+  .projectLink {
+    padding: 0;
+    margin: 0;
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .projectInfo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+  }
+  
+  #contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 30vh;
     
-    .navLeft {
-      padding: 0;
-      margin: 0;
-      margin-top: 7px;
-     
+  }
+  
+  #contactTitle {
+    font-size: 3rem;
+  }
+  
+  .media {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  
+  .mediaItems {
+    margin-right: 20px;
+  }
+  
+  
     }
-    .navLeftItem{
-      font-size: 15px;
-      margin-left: 5px;
-      
-    }
-    .navItems{
-      margin-top: 15px ;
-      font-size: 10px;
-    }
-    #mainName {
-      font-size: 10px;
-      padding-left: 10px;
-    }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     /*
-Styling for my welcome text and small intro page
-*/
-#welcome {
-  margin-left: 15px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 90vh
-}
-#name {
-  font-size: 50px;
-}
-.welcomeText {
-  margin-right: 5rem;
-  font-size: 10px;
-  margin-top: 5rem;
-}
-.lottie{
-  width: 70%;
-}
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 900px) {
+      .navRight{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-left: 23rem;
+       
+        
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+      }
+      .navLeftItem{
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 10px ;
+        font-size: 1rem;
+      }
+      #mainName {
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+        margin-left: 10px;
+      }
+  
+      /*
+  Styling for my welcome text and small intro page
+  */
+  #welcome {
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh
+  }
+  #name {
+    font-size: 50px;
+  }
+  .welcomeText {
+    margin-right: 5rem;
+    font-size: 10px;
+    margin-top: 5rem;
+  }
+  .lottie{
+    width: 70%;
+  }
+  
+  /*
+  Styling for profile page where there is short about me
+  */
+  
+  #profile {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: large;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+   
+  }
+  #techStack{
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .profilePara{
+    width: 80%;
+    font-size: 20px;
+  }
+  .icons {
+    width: 40rem;
+    margin-right: 20px;
+    padding: 0;
+  }
+  
+  /*
+  Styling for my list of projects
+  */
+  
+  #project {
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 5px;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-left: 10px;
+    padding-top: 3rem;
+  }
+  
+  #projectTitle {
+    font-size: xx-large;
+  }
+  
+  
+  .projectSelection {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+  
+  .singleProject {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projectImage {
+    width: 5em;
+    background-color: white;
+    height: 4rem;
+    margin-right: 2%;
+    margin-top: 2rem;
+  }
+  
+  .projectTitle {
+    padding: 0;
+   margin: 0;
+   padding-top: 10px;
+   margin-bottom: 5px;
+   font-size: 15px;
+  }
+  .projectPara {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 8px;
+    width: 90%;
+  }
+  
+  .projectLink {
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: white;
+  }
+  
+    
+  
+  
+  .projectInfo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+  }
+  
+  #contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 30vh;
+    
+  }
+  
+  #contactTitle {
+    font-size: xx-large;
+  }
+  
+  .media {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  
+  .mediaItems {
+    margin-right: 20px;
+  }
+  
+  
+    }
+  
+  
+  
+  /*
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 750px) {
+  
+      .navRight{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-left: 12rem;
+        
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+      }
+      .navLeftItem{
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 10px ;
+        font-size: 1rem;
+      }
+      #mainName {
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+      }
+    }
+     
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /*
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 500px) {
 
-/*
-Styling for profile page where there is short about me
-*/
+      #navBar {
+        height: 2.5rem;
+      }
 
-#profile {
-  align-items: center;
-  justify-content:center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: large;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
- 
-}
+      #navBarScrolled {
+        height: 2.5rem;
+      }
 
-.profilePara{
-  width: 80%;
-  font-size: 15px;
-}
-.icons {
-  width: 23rem;
-  margin-right: 20px;
-  padding: 0;
-}
-
-/*
-Styling for my list of projects
-*/
-
-#project {
-  justify-content:center;
-  align-items:center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: 5px;
-  height: 100vh;
-  padding: 0;
-  margin-left: 10px;
-  padding-top: 3rem;
-}
-
-#projectTitle {
-  font-size: xx-large;
-}
-
-
-.projectSelection {
-  display: flex;
-  flex: 3;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 0;
-  font-size: 20px;
-  margin-left: 10%;
-}
-
-.singleProject {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.projectImage {
-  width: 5em;
-  background-color: white;
-  height: 4rem;
-  margin-right: 2%;
-  margin-top: 2rem;
-}
-
-.projectTitle {
-  padding: 0;
- margin: 0;
- padding-top: 10px;
- margin-bottom: 5px;
- font-size: 15px;
-}
-.projectPara {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-  font-size: 8px;
-  width: 90%;
-}
-
-.projectLink {
-  padding: 0;
-  margin: 0;
-  font-size: 8px;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-.links {
-  text-decoration: none;
-  color: white;
-}
-
+      .navRight{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-left: 4.5rem;
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+        margin-top: 7px;
+       
+      }
+      .navLeftItem{
+        font-size: 15px;
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 15px ;
+        font-size: 0.8rem;
+      }
+      #mainName {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        padding-top: 3px;
+      }
+  
+      /*
+  Styling for my welcome text and small intro page
+  */
+  #welcome {
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh
+  }
+  #name {
+    font-size: 50px;
+  }
+  .welcomeText {
+    margin-right: 5rem;
+    font-size: 10px;
+    margin-top: 5rem;
+  }
+  .lottie{
+    width: 70%;
+  }
+  
+  /*
+  Styling for profile page where there is short about me
+  */
+  
+  #profile {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: large;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+   
+  }
+  
+  .profilePara{
+    width: 80%;
+    font-size: 15px;
+  }
+  .icons {
+    width: 23rem;
+    margin-right: 20px;
+    padding: 0;
+  }
+  
+  /*
+  Styling for my list of projects
+  */
+  
+  #project {
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 5px;
+    height: 100vh;
+    padding: 0;
+    margin-left: 10px;
+    padding-top: 3rem;
+  }
+  
+  #projectTitle {
+    font-size: xx-large;
+  }
+  
+  
+  .projectSelection {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+  
+  .singleProject {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  
+  .projectImage {
+    width: 5em;
+    background-color: white;
+    height: 4rem;
+    margin-right: 2%;
+    margin-top: 2rem;
+  }
+  
+  .projectTitle {
+    padding: 0;
+   margin: 0;
+   padding-top: 10px;
+   margin-bottom: 5px;
+   font-size: 15px;
+  }
+  .projectPara {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 8px;
+    width: 90%;
+  }
+  
+  .projectLink {
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: white;
+  }
+  
+    
+  
+  
+  .projectInfo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+  }
+  
+  #contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 30vh;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+  
+  #contactTitle {
+    font-size: xx-large;
+  }
+  
+  .media {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  
+  .mediaItems {
+    margin-right: 20px;
+  }
+  
+  
+    }
+  
+  
+  
+  
+  
+  
+    @media only screen and (max-width: 440px) {
+      .navRight{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-left: 4.2rem;
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+        margin-top: 7px;
+       
+      }
+      .navLeftItem{
+        font-size: 15px;
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 15px ;
+        font-size: 0.6rem;
+      }
+      #mainName {
+        font-size: 0.9rem;
+        margin-left: 10px;
+        padding-top: 3px;
+      }
+    }
+  
+    /*
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 380px) {
+  
+      .navRight{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-left: 3rem;
+        
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+        
+      }
+      .navLeftItem{
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 13px ;
+        font-size: 0.6rem;
+  
+      }
+      #mainName {
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        margin-left: 10px;
+      }
+      .icons {
+        width: 18rem;
+        padding: 0;
+      }
+    }
+  
+  
+  
+  
+    /*
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 300px) {
+  
+      #navBar {
+        height: 1.5rem;
+      }
+      #navBarScrolled {
+        height: 1.5rem;
+      }
+      .navRight{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-left: 2rem;
+        
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+      }
+      .navLeftItem{
+        margin-left: 5px;
+        
+      }
+      .navItems{
+        margin-top: 10px ;
+        font-size: 0.5rem;
+      }
+      #mainName {
+        font-size: 0.5rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        margin-left: 10px;
+      }
+      .icons {
+        width: 17rem;
+        padding: 0;
+      }
+    }
+  
+    
   
 
-
-.projectInfo{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  margin-top: 15px;
-}
-
-#contact {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  height: 30vh;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
-}
-
-#contactTitle {
-  font-size: xx-large;
-}
-
-.media {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.mediaItems {
-  margin-right: 20px;
-}
-
-
-  }
-
-
-
-
-
-
-  @media only screen and (max-width: 440px) {
-    .navRight{
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-      margin-left: 5rem;
-      
-    }
-  }
-
-
-
-
-  /*
-  For responsive designs using media Query 
-  */
-
-  @media only screen and (max-width: 300px) {
-
-    .navRight{
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-      margin-left: 2rem;
-      
-    }
-    
-    .navLeft {
-      padding: 0;
-      margin: 0;
-    }
-    .navLeftItem{
-      margin-left: 5px;
-      
-    }
-    .navItems{
-      margin-top: 10px ;
-      font-size: 0.6rem;
-    }
-    #mainName {
-      font-size: 0.5rem;
-      padding: 0;
-      margin: 0;
-      padding-top: 10px;
-      padding-left: 10px;
-    }
-    .icons {
-      width: 18rem;
-      padding: 0;
-    }
-  }
 
   
