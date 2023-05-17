@@ -34,12 +34,6 @@ const NavBar = () => {
         <AnchorLink href="#profile" className="anchor">
           <h1 className="navItems"> About Me</h1>
         </AnchorLink>
-        <a
-          href="https://users.metropolia.fi/~anishm/portfolio/CV%20-%20Anish%20Maharjan.pdf"
-          id="cvNav"
-        >
-          <h1 className="navItems">My CV</h1>
-        </a>
         <AnchorLink href="#project" className="anchor">
           <h1 className="navItems"> Projects</h1>
         </AnchorLink>
