@@ -65,7 +65,7 @@ Styling for navBar
   flex-direction: row;
   padding: 0;
   margin: 0;
-  margin-left: 62%;
+  margin-left: 63%;
 }
 
 .navLeft {
@@ -238,6 +238,8 @@ Styling for my welcome text and small intro page
 #cvNav {
   text-decoration: none;
 }
+
+
 
 /*
 Styling for profile page where there is short about me
