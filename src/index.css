@@ -65,7 +65,7 @@ Styling for navBar
   flex-direction: row;
   padding: 0;
   margin: 0;
-  margin-left: 63%;
+  margin-left: 56%;
 }
 
 .navLeft {
@@ -215,7 +215,7 @@ Styling for anchor items in navBar
 Styling for my welcome text and small intro page
 */
 #welcome {
-  margin-left: 14rem;
+  margin-left: 10rem;
   margin-top: 4rem;
   display: flex;
   flex: 1;
@@ -232,6 +232,7 @@ Styling for my welcome text and small intro page
   padding: 0;
 }
 .lottie {
+  margin-top: 8rem;
   width: 40%;
 }
 
@@ -252,7 +253,7 @@ Styling for profile page where there is short about me
   flex: 1;
   flex-direction: column;
   font-size: xx-large;
-  height: 100vh;
+  height: 150vh;
   margin: 0;
   padding: 0;
   
@@ -274,7 +275,7 @@ Styling for my list of projects
   flex-direction: column;
   font-size: xx-large;
   padding-top: 5rem;
-  height: 140vh;
+  height: 200vh;
 }
 
 #projectTitle {
@@ -484,7 +485,7 @@ Styling for my contact details
     flex: 1;
     flex-direction: column;
     font-size: large;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
     padding: 0;
     margin-left: 10px;
