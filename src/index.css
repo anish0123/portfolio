@@ -408,11 +408,15 @@ Styling for my contact details
   }
 
 
+
+
+
+
   /*
     For responsive designs using media Query 
     */
   
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1920px) {
       #navBar {
         margin: 0;
         padding: 0;
@@ -426,7 +430,245 @@ Styling for my contact details
         height: 3rem;
       }
       .navRight{
-        margin-left: 26rem;
+        margin-left: 65%
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+      }
+      .navLeftItem{
+        margin-left: 10rem;
+        
+      }
+      .navItems{
+        margin-top: 10px ;
+        font-size: 1.2rem;
+      }
+      #mainName {
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+        margin-left: 4rem;
+      }
+  
+      /*
+  Styling for my welcome text and small intro page
+  */
+  #welcome {
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh
+  }
+  #name {
+    font-size: 4rem;
+  }
+  .welcomeText {
+    margin-right: 5rem;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-left: 1rem;
+  }
+  .lottie{
+    width: 40%;
+    margin-top: 0rem;
+  }
+  
+  /*
+  Styling for profile page where there is short about me
+  */
+  
+  #profile {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: large;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+   
+  }
+  #profileHeading {
+    font-size: 3.5rem;
+  }
+  #techStack{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+  }
+  
+  .profilePara{
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  .icons {
+    width: 75rem;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  .projectPara {
+    width: 90%;
+  }
+  
+  
+    }
+
+
+
+
+/*
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 1440px) {
+      #navBar {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        height: 3rem;
+      }
+      #navBarScrolled {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        height: 3rem;
+      }
+      .navRight{
+        margin-left: 57%
+      }
+      
+      .navLeft {
+        padding: 0;
+        margin: 0;
+      }
+      .navLeftItem{
+        margin-left: 10rem;
+        
+      }
+      .navItems{
+        margin-top: 10px ;
+        font-size: 1.2rem;
+      }
+      #mainName {
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 3px;
+        margin-left: 4rem;
+      }
+  
+      /*
+  Styling for my welcome text and small intro page
+  */
+  #welcome {
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh
+  }
+  #name {
+    font-size: 4rem;
+  }
+  .welcomeText {
+    margin-right: 5rem;
+    font-size: 1rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+  .lottie{
+    width: 40%;
+  }
+  
+  /*
+  Styling for profile page where there is short about me
+  */
+  
+  #profile {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: large;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+   
+  }
+  #techStack{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-size: xxx-large;
+  }
+  
+  .profilePara{
+    width: 70%;
+    font-size: x-large;
+  }
+  #profileHeading{
+    font-size: xxx-large;
+  }
+  .icons {
+    width: 60rem;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  .projectSelection{
+    margin-left: 10rem;
+  }
+
+  .projectPara {
+    width: 90%;
+  }
+  
+  
+    }
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+  /*
+    For responsive designs using media Query 
+    */
+  
+    @media only screen and (max-width: 1080px) {
+      #navBar {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        height: 3rem;
+      }
+      #navBarScrolled {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        height: 3rem;
+      }
+      .navRight{
+        margin-left: 30%;
       }
       
       .navLeft {
