@@ -65,151 +65,9 @@ Styling for navBar
   flex-direction: row;
   padding: 0;
   margin: 0;
-  margin-left: 56%;
+  margin-left: 50%;
 }
 
-.navLeft {
-  padding: 0;
-  margin: 0;
-  margin-left: 4rem;
-}
-
-.navLeftItem {
-  margin-right: 20px;
-  color: white;
-  font-family: 'League Spartan', sans-serif;
-  text-decoration: none;
-}
-.navItems {
-  margin: 0;
-  padding: 0;
-  margin-right: 20px;
-  margin-top: 2rem;
-  color: white;
-  font-family: 'League Spartan', sans-serif;
-  text-decoration: none;
-  font-size: large;
-}
-
-/*
-Styling for anchor items in navBar
-*/
-.anchor {
-  text-decoration: none;
-}
-
-.navItems{
-  text-decoration: none;
-     color: white;
-     font-family: 'League Spartan', sans-serif;
-    }
-
-    .navItems {
-      position: relative;
-    }
-    
-    .navItems::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        border-radius: 4px;
-        background-color: #5F7ADB;
-        bottom: 0;
-        left: 0;
-        transform-origin: right;
-        transform: scaleX(0);
-        transition: transform .3s ease-in-out;
-      }
-    
-    .navItems:hover::before {
-      transform-origin: left;
-      transform: scaleX(1);
-    }
-
-    
-
-    /*
-  Animation for my main name in header
-  */
-  #mainText {
-    text-decoration: none;
-  }
-  #mainName {
-    text-decoration: none;
-  }
-
-  #mainName {
-    background:
-      linear-gradient(
-        to right,
-        rgba(93, 157, 11, 1),
-        rgba(93, 157, 11, 1)
-      ),
-      linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-  }
-
-  #mainName {
-    background:
-      linear-gradient(
-        to right,
-        rgba(93, 157, 11, 1),
-        rgba(93, 157, 11, 1)
-      ),
-      linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-    background-size: 100% 3px, 0 3px;
-  }
-
-  #mainName {
-    background:
-      linear-gradient(
-        to right,
-        rgba(93, 157, 11, 1),
-        rgba(93, 157, 11, 1)
-      ),
-      linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-  }
-
-  #mainName:hover {
-    background-size: 0 3px, 100% 3px;
-  }
-
-  #mainName {
-    background:
-      linear-gradient(
-        to right,
-        rgba(93, 157, 11, 1),
-        rgba(93, 157, 11, 1)
-      ),
-      linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
-  }
 
   /*
 Styling for my welcome text and small intro page
@@ -430,29 +288,9 @@ Styling for my contact details
         height: 3rem;
       }
       .navRight{
-        margin-left: 65%
+        margin-left: 63%
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-      }
-      .navLeftItem{
-        margin-left: 10rem;
-        
-      }
-      .navItems{
-        margin-top: 10px ;
-        font-size: 1.2rem;
-      }
-      #mainName {
-        font-size: 2rem;
-        padding: 0;
-        margin: 0;
-        padding-top: 5px;
-        margin-left: 4rem;
-      }
-  
       /*
   Styling for my welcome text and small intro page
   */
@@ -543,29 +381,9 @@ Styling for my contact details
         height: 3rem;
       }
       .navRight{
-        margin-left: 57%
+        margin-left: 55%
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-      }
-      .navLeftItem{
-        margin-left: 10rem;
-        
-      }
-      .navItems{
-        margin-top: 10px ;
-        font-size: 1.2rem;
-      }
-      #mainName {
-        font-size: 2rem;
-        padding: 0;
-        margin: 0;
-        padding-top: 3px;
-        margin-left: 4rem;
-      }
-  
       /*
   Styling for my welcome text and small intro page
   */
@@ -668,29 +486,9 @@ Styling for my contact details
         height: 3rem;
       }
       .navRight{
-        margin-left: 30%;
+        margin-left: 48%;
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-      }
-      .navLeftItem{
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 10px ;
-        font-size: 1.2rem;
-      }
-      #mainName {
-        font-size: 1.5rem;
-        padding: 0;
-        margin: 0;
-        padding-top: 5px;
-        margin-left: 10px;
-      }
-  
       /*
   Styling for my welcome text and small intro page
   */
@@ -882,31 +680,11 @@ Styling for my contact details
         flex-direction: row;
         padding: 0;
         margin: 0;
-        margin-left: 23rem;
+        margin-left: 42%;
        
         
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-      }
-      .navLeftItem{
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 10px ;
-        font-size: 1rem;
-      }
-      #mainName {
-        font-size: 1.5rem;
-        padding: 0;
-        margin: 0;
-        padding-top: 5px;
-        margin-left: 10px;
-      }
-  
       /*
   Styling for my welcome text and small intro page
   */
@@ -1094,43 +872,17 @@ Styling for my contact details
         flex-direction: row;
         padding: 0;
         margin: 0;
-        margin-left: 12rem;
+        margin-left: 30%;
         
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-      }
-      .navLeftItem{
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 10px ;
-        font-size: 1rem;
-      }
-      #mainName {
-        font-size: 1.5rem;
-        padding: 0;
-        margin: 0;
-        margin-left: 10px;
-      }
     }
      
   
   
   
     
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
     /*
     For responsive designs using media Query 
@@ -1152,30 +904,9 @@ Styling for my contact details
         flex-direction: row;
         padding: 0;
         margin: 0;
-        margin-left: 4.5rem;
+        margin-left: 10%;
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-        margin-top: 7px;
-       
-      }
-      .navLeftItem{
-        font-size: 15px;
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 15px ;
-        font-size: 0.8rem;
-      }
-      #mainName {
-        font-size: 1.2rem;
-        margin-left: 10px;
-        padding-top: 3px;
-      }
-  
       /*
   Styling for my welcome text and small intro page
   */
@@ -1357,29 +1088,9 @@ Styling for my contact details
         flex-direction: row;
         padding: 0;
         margin: 0;
-        margin-left: 4.2rem;
+        margin-left: 8%;
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-        margin-top: 7px;
-       
-      }
-      .navLeftItem{
-        font-size: 15px;
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 15px ;
-        font-size: 0.6rem;
-      }
-      #mainName {
-        font-size: 0.9rem;
-        margin-left: 10px;
-        padding-top: 3px;
-      }
     }
   
     /*
@@ -1394,31 +1105,10 @@ Styling for my contact details
         flex-direction: row;
         padding: 0;
         margin: 0;
-        margin-left: 3rem;
+        margin-left: 5%;
         
       }
-      
-      .navLeft {
-        padding: 0;
-        margin: 0;
-        
-      }
-      .navLeftItem{
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 13px ;
-        font-size: 0.6rem;
-  
-      }
-      #mainName {
-        font-size: 0.8rem;
-        padding: 0;
-        margin: 0;
-        padding-top: 10px;
-        margin-left: 10px;
-      }
+    
       .icons {
         width: 18rem;
         padding: 0;
@@ -1446,29 +1136,10 @@ Styling for my contact details
         flex-direction: row;
         padding: 0;
         margin: 0;
-        margin-left: 2rem;
+        margin-left: 0;
         
       }
       
-      .navLeft {
-        padding: 0;
-        margin: 0;
-      }
-      .navLeftItem{
-        margin-left: 5px;
-        
-      }
-      .navItems{
-        margin-top: 10px ;
-        font-size: 0.5rem;
-      }
-      #mainName {
-        font-size: 0.5rem;
-        padding: 0;
-        margin: 0;
-        padding-top: 10px;
-        margin-left: 10px;
-      }
       .icons {
         width: 17rem;
         padding: 0;

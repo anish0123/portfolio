@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { styled } from "styled-components";
+import MainName from "./navBar/MainName";
+import NavRightItems from "./navBar/NavRightItems";
 
 const NavBar = () => {
   //navbar scroll when active state
@@ -23,26 +26,25 @@ const NavBar = () => {
 
   return (
     <div id={navbar ? "navBarScrolled" : "navBar"}>
-      <div className="navLeft">
-        <AnchorLink href="#welcome" id="mainText">
-          <h1 id="mainName" className="navLeftItem">
-            Anish Maharjan
-          </h1>
+      <div>
+        <AnchorLink href="#welcome" style={{textDecoration : "none"}}>
+          <MainName />
         </AnchorLink>
       </div>
       <div className="navRight">
-        <AnchorLink href="#profile" className="anchor">
-          <h1 className="navItems"> About Me</h1>
+        <AnchorLink href="#profile" style={{textDecoration: "none"}}>
+          <NavRightItems title="About me" />
         </AnchorLink>
-        <AnchorLink href="#project" className="anchor">
-          <h1 className="navItems"> Projects</h1>
+        <AnchorLink href="#project" style={{textDecoration: "none"}}>
+        <NavRightItems title="Projects" />
         </AnchorLink>
-        <AnchorLink href="#contact" className="anchor">
-          <h1 className="navItems"> Contact</h1>
+        <AnchorLink href="#contact" style={{textDecoration: "none"}}>
+        <NavRightItems title="Contact" />
         </AnchorLink>
       </div>
     </div>
   );
 };
+
 
 export default NavBar;
