@@ -64,16 +64,6 @@ Styling for navBar
   background-color: #1B2223;
 }
 
-.navRight{
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-  margin-left: 50%;
-}
-
-
   /*
 Styling for my welcome text and small intro page
 */
@@ -292,10 +282,6 @@ Styling for my contact details
         padding-top: 1rem;
         height: 3rem;
       }
-      .navRight{
-        margin-left: 63%
-      }
-      
       /*
   Styling for my welcome text and small intro page
   */
@@ -384,9 +370,6 @@ Styling for my contact details
         padding: 0;
         padding-top: 1rem;
         height: 3rem;
-      }
-      .navRight{
-        margin-left: 55%
       }
       
       /*
@@ -490,10 +473,6 @@ Styling for my contact details
         padding-top: 1rem;
         height: 3rem;
       }
-      .navRight{
-        margin-left: 48%;
-      }
-      
       /*
   Styling for my welcome text and small intro page
   */
@@ -680,16 +659,6 @@ Styling for my contact details
     */
   
     @media only screen and (max-width: 900px) {
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 42%;
-       
-        
-      }
       
       /*
   Styling for my welcome text and small intro page
@@ -866,29 +835,7 @@ Styling for my contact details
   
   
   
-  /*
-    For responsive designs using media Query 
-    */
   
-    @media only screen and (max-width: 750px) {
-  
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 30%;
-        
-      }
-      
-    }
-     
-  
-  
-  
-    
-
   
     /*
     For responsive designs using media Query 
@@ -904,14 +851,6 @@ Styling for my contact details
         height: 2.5rem;
       }
 
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 10%;
-      }
       
       /*
   Styling for my welcome text and small intro page
@@ -1085,35 +1024,12 @@ Styling for my contact details
   
   
   
-  
-  
-    @media only screen and (max-width: 440px) {
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 8%;
-      }
-      
-    }
-  
     /*
     For responsive designs using media Query 
     */
   
     @media only screen and (max-width: 380px) {
   
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 5%;
-        
-      }
     
       .icons {
         width: 18rem;
@@ -1135,15 +1051,6 @@ Styling for my contact details
       }
       #navBarScrolled {
         height: 1.5rem;
-      }
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 0;
-        
       }
       
       .icons {

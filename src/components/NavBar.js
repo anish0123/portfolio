@@ -27,24 +27,68 @@ const NavBar = () => {
   return (
     <div id={navbar ? "navBarScrolled" : "navBar"}>
       <div>
-        <AnchorLink href="#welcome" style={{textDecoration : "none"}}>
+        <AnchorLink href="#welcome" style={{ textDecoration: "none" }}>
           <MainName />
         </AnchorLink>
       </div>
-      <div className="navRight">
-        <AnchorLink href="#profile" style={{textDecoration: "none"}}>
+      <NavRight>
+        <AnchorLink href="#profile" style={{ textDecoration: "none" }}>
           <NavRightItems title="About me" />
         </AnchorLink>
-        <AnchorLink href="#project" style={{textDecoration: "none"}}>
-        <NavRightItems title="Projects" />
+        <AnchorLink href="#project" style={{ textDecoration: "none" }}>
+          <NavRightItems title="Projects" />
         </AnchorLink>
-        <AnchorLink href="#contact" style={{textDecoration: "none"}}>
-        <NavRightItems title="Contact" />
+        <AnchorLink href="#contact" style={{ textDecoration: "none" }}>
+          <NavRightItems title="Contact" />
         </AnchorLink>
-      </div>
+      </NavRight>
     </div>
   );
 };
 
+const NavRight = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  margin-left: 50%;
+
+  @media only screen and (max-width: 1920px) {
+    margin-left: 63%;
+  }
+
+  @media only screen and (max-width: 1440px) {
+    margin-left: 53%;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    margin-left: 45%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    margin-left: 40%;
+  }
+
+  @media only screen and (max-width: 750px) {
+    margin-left: 28%;
+  }
+
+  @media only screen and (max-width: 500px) {
+    margin-left: 10%;
+  }
+
+  @media only screen and (max-width: 440px) {
+    margin-left: 8%;
+  }
+
+  @media only screen and (max-width: 380px) {
+    margin-left: 5%;
+  }
+
+  @media only screen and (max-width: 300px) {
+    margin-left: 0;
+  }
+`;
 
 export default NavBar;
