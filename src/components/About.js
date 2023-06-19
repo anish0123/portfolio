@@ -1,10 +1,15 @@
 import { styled } from "styled-components";
+import Lottie from "lottie-react";
+import helloWorld from "../Lottie/helloWorld.json"
 
 const About = () => {
   return (
-    <AboutMe id="profile" style={{paddingTop:"1.5rem"}}>
-      <StyledHeading>About Me</StyledHeading>
-
+    <AboutMe id="about">
+      <StyledHeading >About Me</StyledHeading>
+      <StyledParaDiv>
+      <LottieDiv>
+      <Lottie animationData={helloWorld} />
+      </LottieDiv>
       <ProfilePara>
         I am second-year IT student in Metropolia University of Applied
         Sciences, currently learning and gaining knowledge in various
@@ -15,6 +20,8 @@ const About = () => {
         to gain hands-on experience and contribute to the development of
         innovative software.
       </ProfilePara>
+      
+      </StyledParaDiv>
 
       <StyledHeading>My Tech Stack</StyledHeading>
       <div>
@@ -34,19 +41,28 @@ const AboutMe = styled.div`
   flex: 1;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 100vh;
   margin: 0;
   padding: 0;
+  padding-bottom: 15%;
+
+  @media only screen and (max-width: 1440px) {
+    padding-top: 1%;
+   
+  }
 `;
 
 const StyledHeading = styled.h1`
-font-size: 4.5rem;
+font-size: 4rem;
 margin:0;
 padding:0;
+margin-bottom: 4rem;
+
 
 @media only screen and (max-width: 1440px) {
-  font-size: 3.5rem;
+  font-size: 3rem;
+ 
 }
 
 @media only screen and (max-width: 1440px) {
@@ -62,31 +78,84 @@ padding:0;
 `;
 
 const ProfilePara = styled.p`
-width: 70%;
-font-size: 2rem;
+width: 40%;
+font-size: 1.5rem;
 font-weight: bold;
+margin-left : 10%;
 
 @media only screen and (max-width: 1440px) {
   width: 80%;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-right: 5%;
 }
 
 @media only screen and (max-width: 1080px) {
   width: 80%;
   font-size: 1.8rem;
+  margin-left: 6%;
+}
+
+@media only screen and (max-width: 900px) {
+  width: 90%;
+  font-size: 1.5rem;
+  margin-left: 6%;
 }
 
 @media only screen and (max-width: 750px) {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 500px) {
-  width: 85%;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 440px) {
+  font-size: 0.9rem;
+  margin-left: 2%;
 }
 
 @media only screen and (max-width: 380px) {
   font-size: 1rem;
+}
+`;
+
+const StyledParaDiv = styled.div`
+display: flex; 
+ margin: 0; 
+ padding: 0;
+
+ @media only screen and (max-width: 500px) {
+  flex-direction : column;
+  align-items: center;
+  justify-content: center;
+}
+
+`;
+
+const LottieDiv = styled.div`
+width: 25%;
+margin-left: 15%;
+
+@media only screen and (max-width: 1440px) {
+  width: 50%;
+ padding-top: 1%;
+}
+
+@media only screen and (max-width: 1080px) {
+  width: 70%;
+ padding-top: 15%;
+ 
+}
+
+@media only screen and (max-width: 500px) {
+  width: 80%;
+  padding-top: 20%;
+}
+
+@media only screen and (max-width: 440px) {
+  width: 80%;
+  padding-top: 30%;
 }
 `;
 
@@ -126,5 +195,6 @@ const Icons = styled.img`
       width: 18rem;
     }
 `;
+
 
 export default About;

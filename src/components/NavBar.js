@@ -32,7 +32,7 @@ const NavBar = () => {
         </AnchorLink>
       </div>
       <NavRight>
-        <AnchorLink href="#profile" style={{ textDecoration: "none" }}>
+        <AnchorLink href="#about" style={{ textDecoration: "none" }}>
           <NavRightItems title="About me" />
         </AnchorLink>
         <AnchorLink href="#project" style={{ textDecoration: "none" }}>
