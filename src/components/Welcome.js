@@ -6,8 +6,8 @@ import Iam from "./Iam";
 
 const Welcome = () => {
   return (
-    <div id="welcome">
-      <div className="welcomeText">
+    <WelcomeDiv>
+      <WelcomeText>
         <h3>Hi, I am</h3>
         <Title />
         <Iam />
@@ -24,11 +24,11 @@ const Welcome = () => {
         >
           View My CV
         </Button>
-      </div>
+      </WelcomeText>
       <div className="lottie">
         <Lottie animationData={coding} />
       </div>
-    </div>
+    </WelcomeDiv>
   );
 };
 
@@ -80,6 +80,57 @@ const Button = styled.button`
       0 0 2.5em 2em var(--glow-spread-color),
       inset 0 0 0.5em 0.25em var(--glow-color);
   }
+`;
+
+const WelcomeDiv = styled.div`
+  margin-left: 10rem;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+
+  @media only screen and (max-width: 1920px) {
+    margin-left: 15px;
+    align-items: center;
+    height: 90vh;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    flex-direction: column;
+  }
+
+`;
+
+const WelcomeText = styled.div`
+  margin-right: 5rem;
+  margin-top: 13rem;
+
+  @media only screen and (max-width: 1920px) {
+    margin-right: 5rem;
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+
+  @media only screen and (max-width: 1440px) {
+    margin-top: 4rem;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    font-size: 18px;
+    margin-top: 5rem;
+    padding-right: 4em;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 15px;
+    margin-top: 5rem;
+  }
+
 `;
 
 export default Welcome;

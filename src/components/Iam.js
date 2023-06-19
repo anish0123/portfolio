@@ -34,16 +34,14 @@ const StyledSpan = styled.span`
   font-weight: bold;
   
   @media only screen and (max-width: 1080px) {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
-  @media only screen and (max-width: 1080px) {
-    font-size: 0.8rem;
+  @media only screen and (max-width: 500px) {
+    font-size: 0.9rem;
   }
+
   @media only screen and (max-width: 380px) {
-    font-size: 0.6rem;
-  }
-  @media only screen and (max-width: 300px) {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 `
 
