@@ -64,15 +64,6 @@ Styling for navBar
   background-color: #1B2223;
 }
 
-#name{
-  font-size: 5rem;
-  margin: 0;
-  padding: 0;
-}
-.lottie {
-  margin-top: 8rem;
-  width: 40%;
-}
 
 #cvNav {
   text-decoration: none;
@@ -268,14 +259,8 @@ Styling for my contact details
         height: 3rem;
       }
      
-  #name {
-    font-size: 4rem;
-  }
 
-  .lottie{
-    width: 40%;
-    margin-top: 0rem;
-  }
+
   
   /*
   Styling for profile page where there is short about me
@@ -341,14 +326,8 @@ Styling for my contact details
         height: 3rem;
       }
       
-    
-  #name {
-    font-size: 4rem;
-  }
   
-  .lottie{
-    width: 40%;
-  }
+  
   
   /*
   Styling for profile page where there is short about me
@@ -427,13 +406,8 @@ Styling for my contact details
         height: 3rem;
       }
      
-  #name {
-    font-size: 4rem;
-  }
+ 
   
-  .lottie{
-    width: 40%;
-  }
   
   /*
   Styling for profile page where there is short about me
@@ -596,14 +570,6 @@ Styling for my contact details
   
     @media only screen and (max-width: 900px) {
       
-    
-  #name {
-    font-size: 70px;
-  }
-  
-  .lottie{
-    width: 70%;
-  }
   
   /*
   Styling for profile page where there is short about me
@@ -772,14 +738,7 @@ Styling for my contact details
         height: 2.5rem;
       }
 
-      
-      
-  #name {
-    font-size: 50px;
-  }
-  .lottie{
-    width: 70%;
-  }
+
   
   /*
   Styling for profile page where there is short about me

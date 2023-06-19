@@ -3,7 +3,7 @@ import {keyframes, styled} from "styled-components";
 const MyName = () => {
     return(
         <div>
-            <Name id="name">Anish Maharjan.</Name>
+            <Name>Anish Maharjan.</Name>
         </div>
     )
 };
@@ -37,7 +37,7 @@ font-size: 5rem;
     font-size: 50px;
   }
 
-  
+
 `
 
 export default MyName;

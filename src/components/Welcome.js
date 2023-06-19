@@ -25,9 +25,9 @@ const Welcome = () => {
           View My CV
         </Button>
       </WelcomeText>
-      <div className="lottie">
+      <LottieDiv>
         <Lottie animationData={coding} />
-      </div>
+      </LottieDiv>
     </WelcomeDiv>
   );
 };
@@ -130,8 +130,23 @@ const WelcomeText = styled.div`
     font-size: 15px;
     
   }
+`;
 
+const LottieDiv = styled.div`
+margin-top: 8rem;
+width: 40%;
 
+@media only screen and (max-width: 1920px) {
+  margin-top: 0rem;
+}
+
+@media only screen and (max-width: 1080px) {
+  width: 60%
+}
+
+@media only screen and (max-width: 900px) {
+  width: 70%
+}
 `;
 
 export default Welcome;
