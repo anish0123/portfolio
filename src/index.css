@@ -24,6 +24,11 @@ code {
     monospace;
 }
 
+.typed-cursor {
+  font-size: 1.5rem;
+  font-weight: bold
+}
+
 /*
 Styling for navBar
 */
@@ -59,36 +64,6 @@ Styling for navBar
   background-color: #1B2223;
 }
 
-.navRight{
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-  margin-left: 50%;
-}
-
-
-  /*
-Styling for my welcome text and small intro page
-*/
-#welcome {
-  margin-left: 10rem;
-  margin-top: 4rem;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  height: 100vh
-}
-.welcomeText {
-  margin-right: 5rem;
-  margin-top: 13rem;
-}
-#name{
-  font-size: 5rem;
-  margin: 0;
-  padding: 0;
-}
 .lottie {
   margin-top: 8rem;
   width: 40%;
@@ -103,19 +78,6 @@ Styling for my welcome text and small intro page
 /*
 Styling for profile page where there is short about me
 */
-
-#profile {
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  height: 150vh;
-  margin: 0;
-  padding: 0;
-  
-}
 
 .profilePara{
   width: 50%;
@@ -287,31 +249,8 @@ Styling for my contact details
         padding-top: 1rem;
         height: 3rem;
       }
-      .navRight{
-        margin-left: 63%
-      }
-      
-      /*
-  Styling for my welcome text and small intro page
-  */
-  #welcome {
-    margin-left: 15px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 90vh
-  }
-  #name {
-    font-size: 4rem;
-  }
-  .welcomeText {
-    margin-right: 5rem;
-    font-size: 1rem;
-    margin-top: 0rem;
-    margin-left: 1rem;
-  }
+     
+
   .lottie{
     width: 40%;
     margin-top: 0rem;
@@ -321,19 +260,7 @@ Styling for my contact details
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
+
   #profileHeading {
     font-size: 3.5rem;
   }
@@ -346,11 +273,6 @@ Styling for my contact details
   .profilePara{
     width: 70%;
     font-size: 1.7rem;
-  }
-  .icons {
-    width: 75rem;
-    margin-right: 20px;
-    padding: 0;
   }
 
   .projectPara {
@@ -380,31 +302,12 @@ Styling for my contact details
         padding-top: 1rem;
         height: 3rem;
       }
-      .navRight{
-        margin-left: 55%
-      }
       
-      /*
-  Styling for my welcome text and small intro page
-  */
-  #welcome {
-    margin-left: 15px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 90vh
-  }
+    
   #name {
     font-size: 4rem;
   }
-  .welcomeText {
-    margin-right: 5rem;
-    font-size: 1rem;
-    margin-top: 4rem;
-    margin-left: 1rem;
-  }
+  
   .lottie{
     width: 40%;
   }
@@ -413,19 +316,6 @@ Styling for my contact details
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
   #techStack{
     padding-top: 30px;
     margin-bottom: 50px;
@@ -439,12 +329,7 @@ Styling for my contact details
   #profileHeading{
     font-size: xxx-large;
   }
-  .icons {
-    width: 60rem;
-    margin-right: 20px;
-    padding: 0;
-  }
-
+  
   .projectSelection{
     margin-left: 10rem;
   }
@@ -485,31 +370,11 @@ Styling for my contact details
         padding-top: 1rem;
         height: 3rem;
       }
-      .navRight{
-        margin-left: 48%;
-      }
-      
-      /*
-  Styling for my welcome text and small intro page
-  */
-  #welcome {
-    margin-left: 15px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 90vh
-  }
+     
   #name {
     font-size: 4rem;
   }
-  .welcomeText {
-    margin-right: 5rem;
-    font-size: 1rem;
-    margin-top: 4rem;
-    margin-left: 1rem;
-  }
+  
   .lottie{
     width: 40%;
   }
@@ -517,20 +382,7 @@ Styling for my contact details
   /*
   Styling for profile page where there is short about me
   */
-  
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 150vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
+
   #techStack{
     padding-top: 30px;
     margin-bottom: 50px;
@@ -540,11 +392,7 @@ Styling for my contact details
     width: 80%;
     font-size: 20px;
   }
-  .icons {
-    width: 40rem;
-    margin-right: 20px;
-    padding: 0;
-  }
+  
   
   /*
   Styling for my list of projects
@@ -674,37 +522,12 @@ Styling for my contact details
     */
   
     @media only screen and (max-width: 900px) {
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 42%;
-       
-        
-      }
       
-      /*
-  Styling for my welcome text and small intro page
-  */
-  #welcome {
-    margin-left: 15px;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh
-  }
+    
   #name {
-    font-size: 50px;
+    font-size: 70px;
   }
-  .welcomeText {
-    margin-right: 5rem;
-    font-size: 10px;
-    margin-top: 5rem;
-  }
+  
   .lottie{
     width: 70%;
   }
@@ -713,19 +536,7 @@ Styling for my contact details
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
+  
   #techStack{
     padding-top: 30px;
     margin-bottom: 50px;
@@ -735,11 +546,7 @@ Styling for my contact details
     width: 80%;
     font-size: 20px;
   }
-  .icons {
-    width: 40rem;
-    margin-right: 20px;
-    padding: 0;
-  }
+ 
   
   /*
   Styling for my list of projects
@@ -860,29 +667,7 @@ Styling for my contact details
   
   
   
-  /*
-    For responsive designs using media Query 
-    */
   
-    @media only screen and (max-width: 750px) {
-  
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 30%;
-        
-      }
-      
-    }
-     
-  
-  
-  
-    
-
   
     /*
     For responsive designs using media Query 
@@ -898,34 +683,10 @@ Styling for my contact details
         height: 2.5rem;
       }
 
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 10%;
-      }
       
-      /*
-  Styling for my welcome text and small intro page
-  */
-  #welcome {
-    margin-left: 15px;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh
-  }
+      
   #name {
     font-size: 50px;
-  }
-  .welcomeText {
-    margin-right: 5rem;
-    font-size: 10px;
-    margin-top: 5rem;
   }
   .lottie{
     width: 70%;
@@ -935,29 +696,12 @@ Styling for my contact details
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
   
   .profilePara{
     width: 80%;
     font-size: 15px;
   }
-  .icons {
-    width: 23rem;
-    margin-right: 20px;
-    padding: 0;
-  }
+ 
   
   /*
   Styling for my list of projects
@@ -1079,45 +823,6 @@ Styling for my contact details
   
   
   
-  
-  
-    @media only screen and (max-width: 440px) {
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 8%;
-      }
-      
-    }
-  
-    /*
-    For responsive designs using media Query 
-    */
-  
-    @media only screen and (max-width: 380px) {
-  
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 5%;
-        
-      }
-    
-      .icons {
-        width: 18rem;
-        padding: 0;
-      }
-    }
-  
-  
-  
-  
     /*
     For responsive designs using media Query 
     */
@@ -1130,20 +835,8 @@ Styling for my contact details
       #navBarScrolled {
         height: 1.5rem;
       }
-      .navRight{
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        margin-left: 0;
-        
-      }
       
-      .icons {
-        width: 17rem;
-        padding: 0;
-      }
+  
     }
   
     

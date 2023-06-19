@@ -52,7 +52,7 @@ text-decoration: none;
     font-size: 0.6rem;
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 300px) {
     font-size: 0.5rem;
   }
   

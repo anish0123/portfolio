@@ -46,12 +46,14 @@ const StyledMainName = styled.h1`
     padding: 0;
     font-size: 1.2rem;
     padding-top: 3px;
+    margin-right: 0
   }
 
   @media only screen and (max-width: 440px) {
     padding: 0;
     font-size: 1rem;
     padding-top: 7px;
+    margin-right: 0;
   }
 
   @media only screen and (max-width: 380px) {
@@ -59,12 +61,14 @@ const StyledMainName = styled.h1`
     font-size: 1rem;
     margin-left: 10px;
     padding-top: 3px;
+    margin-right: 0;
   }
 
   @media only screen and (max-width: 300px) {
     padding: 0;
     font-size: 0.6rem;
-    margin-left: 10px;
+    margin-left: 0.7rem;
+    margin-right:1.3rem;
     padding-top: 8px;
   }
 `;

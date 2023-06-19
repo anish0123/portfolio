@@ -1,9 +1,9 @@
 import {keyframes, styled} from "styled-components";
 
-const Title = () => {
+const MyName = () => {
     return(
         <div>
-            <Name id="name">Anish Maharjan.</Name>
+            <Name>Anish Maharjan.</Name>
         </div>
     )
 };
@@ -20,6 +20,24 @@ const Name = styled.h1`
 animation-name: ${animation};
 animation-duration: 6s;
 animation-fill-mode: forwards;
+font-size: 5rem;
+  margin: 0;
+  padding: 0;
+
+
+  @media only screen and (max-width: 1920px) {
+    font-size: 4rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    font-size: 70px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 50px;
+  }
+
+
 `
 
-export default Title;
+export default MyName;
