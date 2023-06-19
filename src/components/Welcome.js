@@ -1,6 +1,6 @@
 import coding from "../Lottie/coding.json";
 import Lottie from "lottie-react";
-import Title from "./Title";
+import MyName from "./MyName";
 import { styled } from "styled-components";
 import Iam from "./Iam";
 
@@ -9,7 +9,7 @@ const Welcome = () => {
     <WelcomeDiv>
       <WelcomeText>
         <h3>Hi, I am</h3>
-        <Title />
+        <MyName />
         <Iam />
         <h3>
           “ Code is like humor. When you have to explain it, it’s bad.” – Cory
@@ -122,14 +122,15 @@ const WelcomeText = styled.div`
 
   @media only screen and (max-width: 900px) {
     font-size: 18px;
-    margin-top: 5rem;
-    padding-right: 4em;
+    margin: 0;
+    padding: 0;
   }
 
   @media only screen and (max-width: 500px) {
     font-size: 15px;
-    margin-top: 5rem;
+    
   }
+
 
 `;
 
