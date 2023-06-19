@@ -6,7 +6,7 @@ import Iam from "./Iam";
 
 const Welcome = () => {
   return (
-    <WelcomeDiv>
+    <WelcomeDiv id="welcome">
       <WelcomeText>
         <h3>Hi, I am</h3>
         <MyName />
@@ -88,11 +88,11 @@ const WelcomeDiv = styled.div`
   flex: 1;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 
   @media only screen and (max-width: 1920px) {
     margin-left: 15px;
-    align-items: center;
     height: 90vh;
   }
 
@@ -141,10 +141,19 @@ width: 40%;
 }
 
 @media only screen and (max-width: 1080px) {
-  width: 60%
+  width: 35%;
 }
 
 @media only screen and (max-width: 900px) {
+  margin-top:1rem;
+  width: 40%
+}
+
+@media only screen and (max-width: 750px) {
+  width: 45%
+}
+
+@media only screen and (max-width: 440px) {
   width: 70%
 }
 `;

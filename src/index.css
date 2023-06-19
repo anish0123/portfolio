@@ -64,6 +64,10 @@ Styling for navBar
   background-color: #1B2223;
 }
 
+.lottie {
+  margin-top: 8rem;
+  width: 40%;
+}
 
 #cvNav {
   text-decoration: none;
@@ -74,19 +78,6 @@ Styling for navBar
 /*
 Styling for profile page where there is short about me
 */
-
-#profile {
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  height: 150vh;
-  margin: 0;
-  padding: 0;
-  
-}
 
 .profilePara{
   width: 50%;
@@ -260,25 +251,16 @@ Styling for my contact details
       }
      
 
-
+  .lottie{
+    width: 40%;
+    margin-top: 0rem;
+  }
   
   /*
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
+
   #profileHeading {
     font-size: 3.5rem;
   }
@@ -291,11 +273,6 @@ Styling for my contact details
   .profilePara{
     width: 70%;
     font-size: 1.7rem;
-  }
-  .icons {
-    width: 75rem;
-    margin-right: 20px;
-    padding: 0;
   }
 
   .projectPara {
@@ -326,26 +303,19 @@ Styling for my contact details
         height: 3rem;
       }
       
+    
+  #name {
+    font-size: 4rem;
+  }
   
-  
+  .lottie{
+    width: 40%;
+  }
   
   /*
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
   #techStack{
     padding-top: 30px;
     margin-bottom: 50px;
@@ -359,12 +329,7 @@ Styling for my contact details
   #profileHeading{
     font-size: xxx-large;
   }
-  .icons {
-    width: 60rem;
-    margin-right: 20px;
-    padding: 0;
-  }
-
+  
   .projectSelection{
     margin-left: 10rem;
   }
@@ -406,26 +371,18 @@ Styling for my contact details
         height: 3rem;
       }
      
- 
+  #name {
+    font-size: 4rem;
+  }
   
+  .lottie{
+    width: 40%;
+  }
   
   /*
   Styling for profile page where there is short about me
   */
-  
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 150vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
+
   #techStack{
     padding-top: 30px;
     margin-bottom: 50px;
@@ -435,11 +392,7 @@ Styling for my contact details
     width: 80%;
     font-size: 20px;
   }
-  .icons {
-    width: 40rem;
-    margin-right: 20px;
-    padding: 0;
-  }
+  
   
   /*
   Styling for my list of projects
@@ -570,24 +523,20 @@ Styling for my contact details
   
     @media only screen and (max-width: 900px) {
       
+    
+  #name {
+    font-size: 70px;
+  }
+  
+  .lottie{
+    width: 70%;
+  }
   
   /*
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
+  
   #techStack{
     padding-top: 30px;
     margin-bottom: 50px;
@@ -597,11 +546,7 @@ Styling for my contact details
     width: 80%;
     font-size: 20px;
   }
-  .icons {
-    width: 40rem;
-    margin-right: 20px;
-    padding: 0;
-  }
+ 
   
   /*
   Styling for my list of projects
@@ -738,35 +683,25 @@ Styling for my contact details
         height: 2.5rem;
       }
 
-
+      
+      
+  #name {
+    font-size: 50px;
+  }
+  .lottie{
+    width: 70%;
+  }
   
   /*
   Styling for profile page where there is short about me
   */
   
-  #profile {
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: large;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-   
-  }
   
   .profilePara{
     width: 80%;
     font-size: 15px;
   }
-  .icons {
-    width: 23rem;
-    margin-right: 20px;
-    padding: 0;
-  }
+ 
   
   /*
   Styling for my list of projects
@@ -892,22 +827,6 @@ Styling for my contact details
     For responsive designs using media Query 
     */
   
-    @media only screen and (max-width: 380px) {
-  
-    
-      .icons {
-        width: 18rem;
-        padding: 0;
-      }
-    }
-  
-  
-  
-  
-    /*
-    For responsive designs using media Query 
-    */
-  
     @media only screen and (max-width: 300px) {
   
       #navBar {
@@ -917,10 +836,7 @@ Styling for my contact details
         height: 1.5rem;
       }
       
-      .icons {
-        width: 17rem;
-        padding: 0;
-      }
+  
     }
   
     
