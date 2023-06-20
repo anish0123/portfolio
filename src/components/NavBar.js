@@ -52,26 +52,26 @@ const NavRight = styled.div`
   flex-direction: row;
   padding: 0;
   margin: 0;
-  margin-left: 70%;
+  margin-left: 82em;
 
   @media only screen and (max-width: 1920px) {
-    margin-left: 63%;
+    margin-left: 75em;
   }
 
   @media only screen and (max-width: 1440px) {
-    margin-left: 53%;
+    margin-left: 47em;
   }
 
   @media only screen and (max-width: 1080px) {
-    margin-left: 45%;
+    margin-left: 30em;
   }
 
   @media only screen and (max-width: 900px) {
-    margin-left: 38%;
+    margin-left: 22em;
   }
 
   @media only screen and (max-width: 750px) {
-    margin-left: 26%;
+    margin-left: 12em;
   }
 
   @media only screen and (max-width: 600px) {
@@ -79,19 +79,19 @@ const NavRight = styled.div`
   }
 
   @media only screen and (max-width: 500px) {
-    margin-left: 20%;
+    margin-left: 6em;
   }
 
   @media only screen and (max-width: 440px) {
-    margin-left: 21%;
+    margin-left: 5em;
   }
 
   @media only screen and (max-width: 390px) {
-    margin-left: 12%;
+    margin-left: 2em;
   }
 
   @media only screen and (max-width: 380px) {
-    margin-left: 20%;
+    margin-left: 4em;
   }
 
   @media only screen and (max-width: 300px) {
