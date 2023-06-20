@@ -1,8 +1,12 @@
+
+
 const Project = () => {
   return (
     <div id="project">
       <h1 id="projectTitle">Projects</h1>
+      
       <div className="projectSelection">
+      
         <div className="singleProject">
           <img
             src="https://users.metropolia.fi/~anishm/portfolio/omaGarden.png"

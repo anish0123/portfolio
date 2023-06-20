@@ -27,7 +27,7 @@ const About = () => {
       <div>
         <a href="https://skillicons.dev">
           <Icons
-            src="https://skillicons.dev/icons?i=js,html,css,java,nodejs,express,azure,react,c,mysql,sqlite,swift,kotlin,androidstudio,linux,figma,git,github,gitlab,postman"
+            src="https://skillicons.dev/icons?i=js,html,css,java,nodejs,express,azure,react,c,mysql,sqlite,mongodb,swift,kotlin,linux,figma,git,"
             alt="tech stack"
           />
         </a>
@@ -139,7 +139,7 @@ margin-left: 15%;
 
 @media only screen and (max-width: 1440px) {
   width: 50%;
- padding-top: 1%;
+ padding-top: 5%;
 }
 
 @media only screen and (max-width: 1080px) {

@@ -74,6 +74,10 @@ const NavRight = styled.div`
     margin-left: 26%;
   }
 
+  @media only screen and (max-width: 600px) {
+    margin-left: 5rem;
+  }
+
   @media only screen and (max-width: 500px) {
     margin-left: 20%;
   }
