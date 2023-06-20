@@ -8,9 +8,9 @@ const Iam = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['I am a Software Developer',
+      strings: ['I am a Software Developer.',
       'I am learning to build stuffs for web and mobiles.',
-      'I am Information Technology Student at Metropolia',
+      'I am Information Technology Student at Metropolia.',
        ],
       typeSpeed: 50,
       backSpeed: 50,
