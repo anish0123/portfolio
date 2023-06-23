@@ -1,8 +1,9 @@
+import {styled} from "styled-components";
 
 
 const Project = () => {
   return (
-    <div id="project">
+    <ProjectDiv>
       <h1 id="projectTitle">Projects</h1>
       
       <div className="projectSelection">
@@ -132,9 +133,34 @@ const Project = () => {
           </div>
         </div>
       </div>
-    </div>
+    </ProjectDiv>
   );
 };
+
+const ProjectDiv = styled.div`
+justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 5rem;
+  height: 200vh;
+
+  @media only screen and (max-width: 1080px) {
+    align-items:center;
+    width: 100%;
+    height: 150vh;
+    padding: 0;
+    margin-left: 10px;
+    padding-top: 7rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    height: 100vh;
+    padding-top: 3rem;
+  }
+
+ 
+`
 
 
 
