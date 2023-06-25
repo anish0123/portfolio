@@ -73,7 +73,6 @@ margin-left : 42%;
 
 @media only screen and (max-width: 1440px) {
   font-size: 3rem;
- 
 }
 
 @media only screen and (max-width: 1440px) {
