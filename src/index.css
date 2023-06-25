@@ -88,19 +88,10 @@ Styling for profile page where there is short about me
 Styling for my list of projects
 */
 
-#project {
- 
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  padding-top: 5rem;
-  height: 200vh;
-}
 
 #projectTitle {
   align-self: center;
+  margin: auto;
 }
 
 
@@ -399,19 +390,7 @@ Styling for my contact details
   Styling for my list of projects
   */
   
-  #project {
-    justify-content:center;
-    align-items:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: 5px;
-    width: 100%;
-    height: 150vh;
-    padding: 0;
-    margin-left: 10px;
-    padding-top: 7rem;
-  }
+  
   
   #projectTitle {
     font-size: xx-large;
@@ -422,9 +401,7 @@ Styling for my contact details
     display: flex;
     flex: 3;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-left: 0;
     font-size: 20px;
     margin-left: 10%;
   }
@@ -433,7 +410,6 @@ Styling for my contact details
     display: flex;
     flex: 1;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
   }
   
@@ -553,20 +529,7 @@ Styling for my contact details
   Styling for my list of projects
   */
   
-  #project {
-    justify-content:center;
-    align-items:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: 5px;
-    width: 100%;
-    height: 100vh;
-    padding: 0;
-    margin-left: 10px;
-    padding-top: 3rem;
-  }
-  
+   
   #projectTitle {
     font-size: xx-large;
   }
@@ -708,18 +671,7 @@ Styling for my contact details
   Styling for my list of projects
   */
   
-  #project {
-    justify-content:center;
-    align-items:center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    font-size: 5px;
-    height: 100vh;
-    padding: 0;
-    margin-left: 10px;
-    padding-top: 3rem;
-  }
+  
   
   #projectTitle {
     font-size: xx-large;
