@@ -89,10 +89,7 @@ Styling for my list of projects
 */
 
 
-#projectTitle {
-  align-self: center;
-  margin: auto;
-}
+
 
 
 .projectSelection {
@@ -391,10 +388,7 @@ Styling for my contact details
   */
   
   
-  
-  #projectTitle {
-    font-size: xx-large;
-  }
+
   
   
   .projectSelection {
@@ -530,9 +524,7 @@ Styling for my contact details
   */
   
    
-  #projectTitle {
-    font-size: xx-large;
-  }
+
   
   
   .projectSelection {
@@ -673,9 +665,7 @@ Styling for my contact details
   
   
   
-  #projectTitle {
-    font-size: xx-large;
-  }
+
   
   
   .projectSelection {
