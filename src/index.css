@@ -92,13 +92,7 @@ Styling for my list of projects
 
 
 
-.projectSelection {
-  display: flex;
-  flex: 3;
-  flex-direction: column;
-  justify-content: left;
-  margin-left: 20rem;
-}
+
 
 .singleProject {
   margin-top: 5rem;
@@ -109,14 +103,6 @@ Styling for my list of projects
   display: flex;
   flex: 1;
   flex-direction: row;
-}
-
-.projectImage {
-  width: 7em;
-  background-color: white;
-  height: 10rem;
-  margin-right: 2%;
-  margin-top: 10px;
 }
 
 .projectTitle {
@@ -319,9 +305,7 @@ Styling for my contact details
     font-size: xxx-large;
   }
   
-  .projectSelection{
-    margin-left: 10rem;
-  }
+  
 
   .projectPara {
     width: 90%;
@@ -388,31 +372,12 @@ Styling for my contact details
   */
   
   
-
-  
-  
-  .projectSelection {
-    display: flex;
-    flex: 3;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 20px;
-    margin-left: 10%;
-  }
   
   .singleProject {
     display: flex;
     flex: 1;
     flex-direction: row;
     justify-content: center;
-  }
-  
-  .projectImage {
-    width: 7em;
-    background-color: white;
-    height: 5rem;
-    margin-right: 2%;
-    margin-top: 2rem;
   }
   
   .projectTitle {
@@ -523,20 +488,7 @@ Styling for my contact details
   Styling for my list of projects
   */
   
-   
-
   
-  
-  .projectSelection {
-    display: flex;
-    flex: 3;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
-    font-size: 20px;
-    margin-left: 10%;
-  }
   
   .singleProject {
     display: flex;
@@ -546,13 +498,6 @@ Styling for my contact details
     justify-content: center;
   }
   
-  .projectImage {
-    width: 5em;
-    background-color: white;
-    height: 4rem;
-    margin-right: 2%;
-    margin-top: 2rem;
-  }
   
   .projectTitle {
     padding: 0;
@@ -665,20 +610,6 @@ Styling for my contact details
   
   
   
-
-  
-  
-  .projectSelection {
-    display: flex;
-    flex: 3;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
-    font-size: 20px;
-    margin-left: 10%;
-  }
-  
   .singleProject {
     margin: 0;
     padding: 0;
@@ -687,13 +618,6 @@ Styling for my contact details
     flex-direction: row;
   }
   
-  .projectImage {
-    width: 5em;
-    background-color: white;
-    height: 4rem;
-    margin-right: 2%;
-    margin-top: 2rem;
-  }
   
   .projectTitle {
     padding: 0;
