@@ -11,9 +11,7 @@ const Project = ({ project }) => {
             <ProjectPara>{project.description}</ProjectPara>
             <ProjectLink>
               Github Link:{" "}
-              <a className="links" href={`${project.projectLink}`}>
-                {project.title}
-              </a>
+              <Links href={`${project.projectLink}`}>{project.title}</Links>
             </ProjectLink>
           </ProjectInfo>
         </SingleProject>
@@ -160,23 +158,48 @@ const ProjectPara = styled.h6`
   @media only screen and (max-width: 500px) {
     font-size: 8px;
   }
-
 `;
 
 const ProjectLink = styled.h6`
-padding: 0;
-margin: 0;
-font-size: medium;
-margin-bottom: 10px;
-text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+  margin-bottom: 10px;
+  text-decoration: none;
 
-@media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 1080px) {
     font-size: 0.7rem;
-}
+  }
 
-@media only screen and (max-width: 900px) {
-  font-size: 8px;
-}
+  @media only screen and (max-width: 900px) {
+    font-size: 8px;
+  }
+`;
+
+const Links = styled.a`
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+
+  &::before {
+    content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      border-radius: 4px;
+      background-color: #5D9D0B;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+  }
+
+  &:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
 `;
 
 export default Project;
