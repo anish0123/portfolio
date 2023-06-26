@@ -89,43 +89,6 @@ Styling for my list of projects
 */
 
 
-
-
-
-
-
-.singleProject {
-  margin-top: 5rem;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 0;
-  padding: 0;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.projectTitle {
-  padding: 0;
- margin: 0;
- margin-bottom: 15px;
-}
-.projectPara {
-  padding: 0;
-  margin: 0;
-  font-size: medium;
-  margin-bottom: 10px;
-  width: 60%;
-}
-
-.projectLink {
-  padding: 0;
-  margin: 0;
-  font-size: medium;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
 .links {
   text-decoration: none;
   color: white;
@@ -134,14 +97,7 @@ Styling for my list of projects
   
 
 
-.projectInfo{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  margin-top: 15px;
-}
+
 
 /*
 Styling for my contact details
@@ -249,11 +205,6 @@ Styling for my contact details
     width: 70%;
     font-size: 1.7rem;
   }
-
-  .projectPara {
-    width: 90%;
-  }
-  
   
     }
 
@@ -304,13 +255,6 @@ Styling for my contact details
   #profileHeading{
     font-size: xxx-large;
   }
-  
-  
-
-  .projectPara {
-    width: 90%;
-  }
-  
   
     }
 
@@ -370,52 +314,13 @@ Styling for my contact details
   /*
   Styling for my list of projects
   */
-  
-  
-  
-  .singleProject {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .projectTitle {
-    padding: 0;
-   margin: 0;
-   padding-top: 10px;
-   margin-bottom: 5px;
-   font-size: 1.5rem;
-  }
-  .projectPara {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 0.7rem;
-    width: 90%;
-  }
-  
-  .projectLink {
-    padding: 0;
-    margin: 0;
-    font-size: 0.7rem;
-    margin-bottom: 10px;
-    text-decoration: none;
-  }
+
   
   .links {
     text-decoration: none;
     color: white;
   }
   
-  .projectInfo{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    margin-top: 15px;
-  }
   
   #contact {
     align-items: center;
@@ -489,39 +394,6 @@ Styling for my contact details
   */
   
   
-  
-  .singleProject {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .projectTitle {
-    padding: 0;
-   margin: 0;
-   padding-top: 10px;
-   margin-bottom: 5px;
-   font-size: 15px;
-  }
-  .projectPara {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 8px;
-    width: 90%;
-  }
-  
-  .projectLink {
-    padding: 0;
-    margin: 0;
-    font-size: 8px;
-    margin-bottom: 10px;
-    text-decoration: none;
-  }
-  
   .links {
     text-decoration: none;
     color: white;
@@ -530,14 +402,7 @@ Styling for my contact details
     
   
   
-  .projectInfo{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    margin-top: 15px;
-  }
+ 
   
   #contact {
     align-items: center;
@@ -610,54 +475,11 @@ Styling for my contact details
   
   
   
-  .singleProject {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-  }
-  
-  
-  .projectTitle {
-    padding: 0;
-   margin: 0;
-   padding-top: 10px;
-   margin-bottom: 5px;
-   font-size: 15px;
-  }
-  .projectPara {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 8px;
-    width: 90%;
-  }
-  
-  .projectLink {
-    padding: 0;
-    margin: 0;
-    font-size: 8px;
-    margin-bottom: 10px;
-    text-decoration: none;
-  }
-  
   .links {
     text-decoration: none;
     color: white;
   }
   
-    
-  
-  
-  .projectInfo{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    margin-top: 15px;
-  }
   
   #contact {
     align-items: center;

@@ -6,16 +6,16 @@ const Project = ({ project }) => {
       <ProjectHolder>
         <SingleProject>
           <ProjectImg src={`${project.image}`} alt={`${project.title} logo`} />
-          <div className="projectInfo">
-            <h4 className="projectTitle"> {project.title}</h4>
-            <h6 className="projectPara">{project.description}</h6>
-            <h6 className="projectLink">
+          <ProjectInfo>
+            <ProjectTitle> {project.title}</ProjectTitle>
+            <ProjectPara>{project.description}</ProjectPara>
+            <ProjectLink>
               Github Link:{" "}
               <a className="links" href={`${project.projectLink}`}>
                 {project.title}
               </a>
-            </h6>
-          </div>
+            </ProjectLink>
+          </ProjectInfo>
         </SingleProject>
       </ProjectHolder>
     </ProjectDiv>
@@ -106,6 +106,77 @@ const ProjectImg = styled.img`
   @media only screen and (max-width: 500px) {
     width: 5em;
   }
+`;
+
+const ProjectInfo = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+`;
+
+const ProjectTitle = styled.h4`
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+
+  @media only screen and (max-width: 1080px) {
+    padding-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 1rem;
+  }
+`;
+
+const ProjectPara = styled.h6`
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+  margin-bottom: 10px;
+  width: 60%;
+
+  @media only screen and (max-width: 1920px) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    font-size: 0.7rem;
+    width: 90%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    font-size: 8px;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 8px;
+  }
+
+`;
+
+const ProjectLink = styled.h6`
+padding: 0;
+margin: 0;
+font-size: medium;
+margin-bottom: 10px;
+text-decoration: none;
+
+@media only screen and (max-width: 1080px) {
+    font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 900px) {
+  font-size: 8px;
+}
 `;
 
 export default Project;
