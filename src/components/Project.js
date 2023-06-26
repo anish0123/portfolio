@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 const Project = ({ project }) => {
   return (
     <ProjectDiv>
-      <div className="projectSelection">
+      <ProjectHolder>
         <div className="singleProject">
           <img src={`${project.image}`}  alt={`${project.title} logo`} className="projectImage" />
           <div className="projectInfo">
@@ -20,7 +20,7 @@ const Project = ({ project }) => {
             </h6>
           </div>
         </div>
-      </div>
+      </ProjectHolder>
     </ProjectDiv>
   );
 };
@@ -42,6 +42,29 @@ const ProjectDiv = styled.div`
   @media only screen and (max-width: 900px) {
     padding-top: 3rem;
   }
+`;
+
+const ProjectHolder = styled.div`
+display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 20rem;
+
+  @media only screen and (max-width: 1440px) {
+    margin-left: 10rem;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    align-items: center;
+    margin-left: 10%;
+  }
+
 `;
 
 export default Project;
