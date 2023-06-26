@@ -107,12 +107,12 @@ margin-left : 10%;
 
 @media only screen and (max-width: 500px) {
   font-size: 1rem;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 @media only screen and (max-width: 440px) {
   font-size: 0.9rem;
-  margin-left: 2%;
+  margin-left: 12%;
 }
 
 @media only screen and (max-width: 380px) {
@@ -151,6 +151,7 @@ margin-left: 15%;
 @media only screen and (max-width: 500px) {
   width: 80%;
   padding-top: 20%;
+  padding-right: 20%;
 }
 
 @media only screen and (max-width: 440px) {
