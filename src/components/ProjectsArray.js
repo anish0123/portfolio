@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Project from "./Project";
 import { styled } from "styled-components";
+import SingleProject from "./SingleProject";
 
 const ProjectsArray = () => {
   const projects = [
@@ -54,13 +55,13 @@ const ProjectsArray = () => {
     },
   ];
   return (
-    <StyledDiv
-      id="project"
-    >
+    <StyledDiv id="project">
       <StyledHeading>Projects</StyledHeading>
-      {projects.map((project) => (
-        <Project project={project} key={project.id} />
-      ))}
+      <ProjectHolder>
+        {projects.map((project) => (
+          <SingleProject project={project} key={project.id} />
+        ))}
+      </ProjectHolder>
     </StyledDiv>
   );
 };
@@ -86,7 +87,15 @@ const StyledDiv = styled.div`
   @media only screen and (max-width: 380px) {
     padding-top: 25%;
   }
+`;
 
+const ProjectHolder = styled.div`
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
 `;
 
 const StyledHeading = styled.h1`
