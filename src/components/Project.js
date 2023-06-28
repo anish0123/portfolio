@@ -178,7 +178,7 @@ const ProjectLink = styled.h6`
 
 const Links = styled.a`
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: "Open Sans", sans-serif;
   position: relative;
 

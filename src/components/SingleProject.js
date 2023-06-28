@@ -10,13 +10,41 @@ const SingleProject = ({project}) => {
             <img src={`${project.image}`} alt={`${project.title} logo`} style={{width: "80%", alignSelf: "center" }}/>
         </div>
         <div class="flip-card-back">
-            <p class="title">BACK</p>
-            <p>Leave Me</p>
+            <p class="title">{project.description}</p>
+            <p>GitHub Link:  
+            <Links href={`${project.projectLink}`}> {project.title}</Links>
+            </p>
         </div>
     </div>
 </div>
     )
 }
+
+const Links = styled.a`
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+
+  &::before {
+    content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      border-radius: 4px;
+      background-color: #5D9D0B;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+  }
+
+  &:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+`;
 
 
 

@@ -47,7 +47,7 @@ const ProjectsArray = () => {
     {
       id: 5,
       title: "Game Shots",
-      description: `Game Shots is a React Native project that allows users to upload their game achievements. <br />
+      description: `Game Shots is a React Native project that allows users to upload their game achievements.
                   Users can take a screenshot of their achievement and upload it along with a description of the achievement. 
                   This app is designed for gamers to share their achievements in various games.`,
       image: "https://users.metropolia.fi/~anishm/portfolio/gameShots.png",
