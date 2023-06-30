@@ -11,7 +11,7 @@ const About = () => {
       <Lottie animationData={helloWorld} />
       </LottieDiv>
       <ProfilePara>
-        I am second-year IT student in Metropolia University of Applied
+        I am third-year IT student in Metropolia University of Applied
         Sciences, currently learning and gaining knowledge in various
         programming languages and technologies. I am proficient in
         problem-solving and analytical thinking, and I am constantly working to
