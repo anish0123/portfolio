@@ -63,6 +63,7 @@ Styling for navBar
   height: 5rem;
   padding: 0;
   background-color: #1B2223;
+  z-index: 9999;
 }
 
 
@@ -299,7 +300,37 @@ Styling for my contact details
   .mediaItems {
     margin-right: 20px;
   }
+
+  .flip-card {
+    width: 20rem;
+    height: 20rem;
+    
+  }
   
+  
+    }
+
+
+
+    @media only screen and (max-width: 750px) {
+  
+      .flip-card {
+        width: 18rem;
+        height: 18rem;
+        
+      }
+  
+    }
+
+
+
+    @media only screen and (max-width: 600px) {
+  
+      .flip-card {
+        width: 20rem;
+        height: 20rem;
+        
+      }
   
     }
   
@@ -350,11 +381,21 @@ Styling for my contact details
   .mediaItems {
     margin-right: 20px;
   }
+
+  
   
   
     }
   
+    @media only screen and (max-width: 380px) {
   
+      .flip-card {
+        width: 18rem;
+        height: 18rem;
+        
+      }
+  
+    }
   
   
     /*
