@@ -1,4 +1,5 @@
 import { FcAddressBook } from "react-icons/fc";
+import ContactForm from "./ContacForm";
 
 const Contact = () => {
   return (
@@ -24,6 +25,7 @@ const Contact = () => {
         </a>
         </div>
       </div>
+      <ContactForm />
     </div>
   );
 };
