@@ -306,6 +306,9 @@ Styling for my contact details
     height: 20rem;
     
   }
+  .title{
+    font-size: 1.2rem;
+  }
   
   
     }
@@ -393,6 +396,9 @@ Styling for my contact details
         width: 18rem;
         height: 18rem;
         
+      }
+      .title{
+        font-size: 1rem;
       }
   
     }
