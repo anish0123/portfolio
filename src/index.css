@@ -139,9 +139,7 @@ Styling for my contact details
   transform: rotateY(180deg);
 }
 
-::placeholder{
-  color: white;
-}
+
 
 
 

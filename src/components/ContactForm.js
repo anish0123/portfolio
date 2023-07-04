@@ -56,6 +56,20 @@ border-bottom: 2px solid white;
     box-shadow: -3px -3px 15px rgb(0, 255, 255);
     transition: .1s;
     transition-property: box-shadow;
+}
+
+&::placeholder{
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  height : 1.5rem;
+  &::placeholder{
+    font-size: 1rem;
+  }
+}
+
+
 `;
 
 const StyledMessageInput = styled.input`
@@ -75,6 +89,18 @@ const StyledMessageInput = styled.input`
     transition: 0.1s;
     transition-property: box-shadow;
   }
+  &::placeholder{
+    color: white;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    height : 1.5rem;
+    &::placeholder{
+      font-size: 1rem;
+    }
+  }
+  
+  
 `;
 
 const Button = styled.button`

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { styled } from "styled-components";
 import SingleProject from "./SingleProject";
 import StyledHeading from "./StyledHeading";
@@ -77,7 +76,12 @@ const StyledDiv = styled.div`
     padding-top: 7%;
   }
 
+  @media only screen and (max-width: 1114px) {
+    height: 250vh;
+  }
+
   @media only screen and (max-width: 900px) {
+    height: 150vh;
     padding-top: 9%;
   }
 
@@ -89,9 +93,10 @@ const StyledDiv = styled.div`
     height: 120vh;
   }
 
-  @media only screen and (max-width: 390px) {
-    height: 112vh;
+  @media only screen and (max-width: 440px) {
+    height: 250vh;
   }
+
 
   @media only screen and (max-width: 380px) {
     padding-top: 25%;

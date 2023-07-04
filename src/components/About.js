@@ -52,8 +52,14 @@ const AboutMe = styled.div`
     padding-top: 3%;
    
   }
+
+  @media only screen and (max-width: 768px) {
+    height: 110vh;
+   
+  }
+
   @media only screen and (max-width: 390px) {
-    height: 108vh;
+    height: 90vh;
    
   }
 `;

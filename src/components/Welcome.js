@@ -96,8 +96,24 @@ const WelcomeDiv = styled.div`
     height: 90vh;
   }
 
+  @media only screen and (max-width: 1114px) {
+    height: 115vh;
+  }
+
   @media only screen and (max-width: 1080px) {
     flex-direction: column;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 100vh;
+  }
+
+  @media only screen and (max-width: 430px) {
+    height: 110vh;
+  }
+
+  @media only screen and (max-width: 390px) {
+    height: 120vh;
   }
 
 `;
