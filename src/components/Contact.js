@@ -1,10 +1,12 @@
 import { FcAddressBook } from "react-icons/fc";
 import ContactForm from "./ContacForm";
+import { styled } from "styled-components";
+import StyledHeading from "./StyledHeading";
 
 const Contact = () => {
   return (
-    <div id="contact">
-      <h1 id="contactTitle">Contact</h1>
+    <ContactDiv id="contact">
+      <StyledHeading>Contact</StyledHeading>
       <div className="media">
         <div className="mediaItems">
           <a href="https://www.linkedin.com/in/anish-maharjan1/">
@@ -20,14 +22,26 @@ const Contact = () => {
           </a>
         </div>
         <div>
-        <a href="mailto:anishmhn@hotmail.com" className="mediaItems">
-          <FcAddressBook size={50} />
-        </a>
+          <a href="mailto:anishmhn@hotmail.com" className="mediaItems">
+            <FcAddressBook size={50} />
+          </a>
         </div>
       </div>
       <ContactForm />
-    </div>
+    </ContactDiv>
   );
 };
+
+const ContactDiv = styled.div`
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: xx-large;
+  height: 30vh;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+`;
 
 export default Contact;

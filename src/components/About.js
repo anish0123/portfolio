@@ -1,11 +1,12 @@
 import { styled } from "styled-components";
 import Lottie from "lottie-react";
 import helloWorld from "../Lottie/helloWorld.json"
+import StyledHeading from "./StyledHeading"
 
 const About = () => {
   return (
     <AboutMe id="about">
-      <StyledHeading >About Me</StyledHeading>
+      <StyledHeading>About Me</StyledHeading>
       <StyledParaDiv>
       <LottieDiv>
       <Lottie animationData={helloWorld} />
@@ -53,29 +54,6 @@ const AboutMe = styled.div`
   }
 `;
 
-const StyledHeading = styled.h1`
-font-size: 4rem;
-margin:0;
-padding:0;
-margin-bottom: 4rem;
-
-
-@media only screen and (max-width: 1440px) {
-  font-size: 3rem;
- 
-}
-
-@media only screen and (max-width: 1440px) {
-  font-size: 3rem;
-}
-
-@media only screen and (max-width: 440px) {
-  font-size: 2.5rem;
-}
-@media only screen and (max-width: 380px) {
-  font-size: 2rem;
-}
-`;
 
 const ProfilePara = styled.p`
 width: 40%;
