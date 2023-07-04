@@ -71,6 +71,7 @@ const StyledDiv = styled.div`
   flex: 1;
   flex-direction: column;
   padding-top: 5%;
+  height: 95vh;
 
   @media only screen and (max-width: 1440px) {
     padding-top: 7%;
@@ -82,6 +83,14 @@ const StyledDiv = styled.div`
 
   @media only screen and (max-width: 750px) {
     padding-top: 15%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 120vh;
+  }
+
+  @media only screen and (max-width: 390px) {
+    height: 114vh;
   }
 
   @media only screen and (max-width: 380px) {
