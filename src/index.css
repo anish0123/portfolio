@@ -74,17 +74,6 @@ Styling for navBar
 Styling for my contact details
 */
 
-#contact {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-size: xx-large;
-  height: 30vh;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
-}
 
 .media {
   display: flex;
@@ -150,6 +139,9 @@ Styling for my contact details
   transform: rotateY(180deg);
 }
 
+::placeholder{
+  color: white;
+}
 
 
 
@@ -232,20 +224,7 @@ Styling for my contact details
   */
 
  
-  
-  #contact {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    height: 30vh;
-    
-  }
-  
-  #contactTitle {
-    font-size: 3rem;
-  }
+
   
   .media {
     display: flex;
@@ -276,20 +255,8 @@ Styling for my contact details
     @media only screen and (max-width: 900px) {
       
  
+
   
-  #contact {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    height: 30vh;
-    
-  }
-  
-  #contactTitle {
-    font-size: xx-large;
-  }
   
   .media {
     display: flex;
@@ -305,6 +272,9 @@ Styling for my contact details
     width: 20rem;
     height: 20rem;
     
+  }
+  .title{
+    font-size: 1.2rem;
   }
   
   
@@ -357,20 +327,6 @@ Styling for my contact details
   */
   
 
-  #contact {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    height: 30vh;
-    margin-bottom: 10rem;
-    margin-top: 10rem;
-  }
-  
-  #contactTitle {
-    font-size: xx-large;
-  }
   
   .media {
     display: flex;
@@ -393,6 +349,9 @@ Styling for my contact details
         width: 18rem;
         height: 18rem;
         
+      }
+      .title{
+        font-size: 1rem;
       }
   
     }

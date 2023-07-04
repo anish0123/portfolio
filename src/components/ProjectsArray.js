@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Project from "./Project";
 import { styled } from "styled-components";
 import SingleProject from "./SingleProject";
+import StyledHeading from "./StyledHeading";
 
 const ProjectsArray = () => {
   const projects = [
@@ -71,6 +71,7 @@ const StyledDiv = styled.div`
   flex: 1;
   flex-direction: column;
   padding-top: 5%;
+  height: 150vh;
 
   @media only screen and (max-width: 1440px) {
     padding-top: 7%;
@@ -82,6 +83,14 @@ const StyledDiv = styled.div`
 
   @media only screen and (max-width: 750px) {
     padding-top: 15%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 120vh;
+  }
+
+  @media only screen and (max-width: 390px) {
+    height: 112vh;
   }
 
   @media only screen and (max-width: 380px) {
@@ -98,34 +107,6 @@ const ProjectHolder = styled.div`
   align-content: center;
 `;
 
-const StyledHeading = styled.h1`
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 4rem;
-  align-self: center;
 
-  @media only screen and (max-width: 1440px) {
-    font-size: 3rem;
-  }
-
-  @media only screen and (max-width: 1440px) {
-    font-size: 3rem;
-  }
-
-  @media only screen and (max-width: 600px) {
-    font-size: 3rem;
-  }
-  @media only screen and (max-width: 500px) {
-    font-size: 3rem;
-  }
-
-  @media only screen and (max-width: 440px) {
-    font-size: 2.5rem;
-  }
-  @media only screen and (max-width: 380px) {
-    font-size: 2rem;
-  }
-`;
 
 export default ProjectsArray;
