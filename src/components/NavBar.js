@@ -62,13 +62,26 @@ const NavRight = styled.div`
     margin-left: 47em;
   }
 
-  @media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 1280px) {
+    margin-left: 40em;
+  }
+
+  @media only screen and (max-width: 1114px) {
     margin-left: 30em;
   }
 
   @media only screen and (max-width: 900px) {
     margin-left: 22em;
   }
+
+  @media only screen and (max-width: 834px) {
+    margin-left: 18em;
+  }
+
+  @media only screen and (max-width: 800px) {
+    margin-left: 14em;
+  }
+
 
   @media only screen and (max-width: 750px) {
     margin-left: 12em;
@@ -86,12 +99,24 @@ const NavRight = styled.div`
     margin-left: 5em;
   }
 
-  @media only screen and (max-width: 390px) {
+  @media only screen and (max-width: 480px) {
+    margin-left: 4.5em;
+  }
+
+  @media only screen and (max-width: 414px) {
+    margin-left: 3em;
+  }
+
+  @media only screen and (max-width: 393px) {
     margin-left: 2em;
   }
 
   @media only screen and (max-width: 380px) {
     margin-left: 4em;
+  }
+
+  @media only screen and (max-width: 360px) {
+    margin-left: 3em;
   }
 
   @media only screen and (max-width: 300px) {

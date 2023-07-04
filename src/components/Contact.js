@@ -44,7 +44,8 @@ const ContactDiv = styled.div`
   flex: 1;
   flex-direction: column;
   font-size: 1.8rem;
-  height: 90vh;
+  height: 100vh;
+  margin-bottom: 10%;
 
   @media only screen and (max-width: 1080px) {
     height: 95vh;
@@ -57,7 +58,16 @@ const ContactDiv = styled.div`
   @media only screen and (max-width: 500px) {
     height: 103vh;
   }
+
+  @media only screen and (max-width: 440px) {
+    height: 103vh;
+  }
   
+  @media only screen and (max-width: 390px) {
+    height: 100vh;
+    font-size: 1rem;
+  }
+ 
   @media only screen and (max-width: 380px) {
     height: 105vh;
   }
@@ -75,10 +85,14 @@ margin-left: 10%;
   margin-left: 5%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   flex-direction : column;
-  margin-left: 20%;
+  margin-left: 10%;
   font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+  margin-left: 20%;
 }
 
 @media only screen and (max-width: 390px) {
@@ -89,6 +103,14 @@ margin-left: 10%;
 const StyledH2 = styled.h2`
 @media only screen and (max-width: 900px) {
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 440px) {
+  font-size: 1.5rem;
 }
 `;
 const Links = styled.a`
@@ -140,6 +162,10 @@ padding : 0;
 
 @media only screen and (max-width: 900px) {
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 390px) {
+  font-size: 0.8rem;
 }
 `
 
