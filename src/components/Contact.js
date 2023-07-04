@@ -57,7 +57,7 @@ const ContactDiv = styled.div`
   @media only screen and (max-width: 500px) {
     height: 103vh;
   }
-
+  
   @media only screen and (max-width: 380px) {
     height: 105vh;
   }
@@ -81,7 +81,7 @@ margin-left: 10%;
   font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 390px) {
   margin-left: 10%;
   }
 `;

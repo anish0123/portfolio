@@ -49,7 +49,11 @@ const AboutMe = styled.div`
   padding-bottom: 15%;
 
   @media only screen and (max-width: 1440px) {
-    padding-top: 1%;
+    padding-top: 3%;
+   
+  }
+  @media only screen and (max-width: 390px) {
+    height: 108vh;
    
   }
 `;
