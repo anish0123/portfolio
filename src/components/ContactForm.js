@@ -12,16 +12,18 @@ const ContactForm = () => {
         action="https://script.google.com/macros/s/AKfycbzYZJWQwQ-WazDXe9p_ie5qFdj-jPpynGnXgIs1ZCEa6YSrF-Fg1MuoVQM_rPXCytSm/exec"
       >
         <label>
-          <StyledInput type="text" name="name" placeholder="Name" />
+          <StyledInput type="text" name="name" placeholder="Name" required minLength="3" />
         </label>
         <label>
-          <StyledInput type="text" name="email" placeholder="Email" />
+          <StyledInput type="text" name="email" placeholder="Email" required minLength="10" />
         </label>
         <label>
           <StyledMessageInput
             type="text"
             name="message"
             placeholder="Message"
+            required
+            minLength="10"
           />
         </label>
         <Button type="submit">Send</Button>
@@ -40,44 +42,12 @@ const StyledForm = styled.form`
 `;
 
 const StyledInput = styled.input`
-width: 80%;
-background-color: black;
-height : 3rem;
-margin-bottom: 4rem;
-font-size: 2rem;
-color: white;
-border: none;
-border-bottom: 2px solid white;
-
-&:focus {
-    color: rgb(0, 255, 255);
-    background-color: #212121;
-    outline-color: rgb(0, 255, 255);
-    box-shadow: -3px -3px 15px rgb(0, 255, 255);
-    transition: .1s;
-    transition-property: box-shadow;
-}
-
-&::placeholder{
-  color: white;
-}
-
-@media only screen and (max-width: 900px) {
-  height : 1.5rem;
-  &::placeholder{
-    font-size: 1rem;
-  }
-}
-
-
-`;
-
-const StyledMessageInput = styled.input`
   width: 80%;
-  height: 7rem;
   background-color: black;
-  font-size: 2rem;
+  height: 3rem;
   margin-bottom: 4rem;
+  font-size: 2rem;
+  color: white;
   border: none;
   border-bottom: 2px solid white;
 
@@ -89,18 +59,49 @@ const StyledMessageInput = styled.input`
     transition: 0.1s;
     transition-property: box-shadow;
   }
-  &::placeholder{
+
+  &::placeholder {
     color: white;
+    font-size: 1.2rem;
   }
-  
+
   @media only screen and (max-width: 900px) {
-    height : 1.5rem;
-    &::placeholder{
+    height: 1.5rem;
+    &::placeholder {
       font-size: 1rem;
     }
   }
-  
-  
+`;
+
+const StyledMessageInput = styled.input`
+  width: 80%;
+  height: 7rem;
+  background-color: black;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+
+  &:focus {
+    color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: 0.1s;
+    transition-property: box-shadow;
+  }
+  &::placeholder {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    height: 1.5rem;
+    &::placeholder {
+      font-size: 1rem;
+    }
+  }
 `;
 
 const Button = styled.button`

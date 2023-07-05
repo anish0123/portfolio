@@ -3,14 +3,14 @@ import {styled} from "styled-components";
 const SingleProject = ({project}) => {
 
     return(
-        <div class="flip-card">
-    <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <p class="title">{project.title}</p>
+        <div className="flip-card">
+    <div className="flip-card-inner">
+        <div className="flip-card-front">
+            <p className="title">{project.title}</p>
             <img src={`${project.image}`} alt={`${project.title} logo`} style={{width: "80%", alignSelf: "center" }}/>
         </div>
-        <div class="flip-card-back">
-            <p class="title">{project.description}</p>
+        <div className="flip-card-back">
+            <p className="title">{project.description}</p>
             <p>GitHub Link:  
             <Links href={`${project.projectLink}`}> {project.title}</Links>
             </p>
